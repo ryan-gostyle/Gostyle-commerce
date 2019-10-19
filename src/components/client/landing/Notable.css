@@ -1,0 +1,65 @@
+.notable{
+    min-height: 200px;
+    margin-top: 50px;
+}
+.notable h2{
+    font-weight:900!important;
+}
+.notable .sub-title{
+    font-weight:600!important;
+}
+.slick-dots li button:before{
+    font-size:20px !important;
+}
+
+
+.notable-1,.notable-2,.notable-3{
+    padding: 5px 20px;
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
+
+@media (min-width:320px)  { 
+    .notable p{
+        font-size: 13px;
+        font-weight: 700;
+        padding:10px 0;
+    }
+
+}
+@media (min-width:481px)  { 
+    .notable p{
+        font-size: 24px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+}
+@media (min-width:641px)  { 
+    .notable p{
+        font-size: 13px;
+        font-weight: 700;
+        padding:10px 5px;
+    }
+}
+
+@media (min-width:961px)  { 
+    .notable p{
+        font-size: 16px;
+        font-weight: 700;
+        padding:10px 20px;
+    }
+}
+
+@media (min-width:1025px) { 
+    .notable p{
+        font-size: 17px;
+        font-weight: 700;
+        padding:10px 35px;
+    }
+}

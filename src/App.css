@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a,li{
+  color:#212529;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight:300 !important;
+}
+a,a:hover{
+  font-weight: 500 !important;
+  color:#212529 !important;
+}
+h1{
+  font-size:60px;
+  margin-bottom: 0;
+  text-align:left;
+}
+h2{
+  font-size:40px;
+  margin-bottom: 0;
+  text-align:left;
+}
+h3{
+  font-size:35px;
+  margin-bottom: 0;
+  text-align:left;
+}
+.bold-font-600{
+  font-weight:900;
+  margin-bottom: 10px;
+}
+.hero .row{
+  background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
+  background-position: bottom right;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 320px){
+  .hero .row .hero-col-1 {
+    padding:20px ;
+    text-align: left;
+  }
+  .hero h1{
+      font-size: 35px;
+  }
+}
+@media (min-width: 469px){
+  .hero .row .hero-col-1 {
+    padding: 15px ;
+    text-align: left;
+  }
+  .hero h1{
+    font-size: 35px;
+}
+}
+@media (min-width: 992px){
+  .hero .row .hero-col-1 {
+    padding: 0 0 0 50px ;
+    text-align: left;
+  }
+  .hero h1{
+    font-size: 67px;
+}
+}
+@media (min-width: 1024px){
+  .hero .row .hero-col-1 {
+    padding: 0 0 0 60px ;
+    text-align: left;
+  }
+  .hero h1{
+    font-size: 67px;
+}
+}
+
+.hero.container-fluid{
+  overflow: hidden;
+  padding-left:0;
+  padding-right:0;
+}
+.hero a{
+  padding:7px 15px;
+  border-radius:5px;
+  margin:5px;
+}
+.book-now{
+  background-color:#64a4dfc7; 
+}
+.we-work{
+  background-color:#ffef00d6; 
+}
+img{
+  width: 100%;
+  height:auto;
+  max-width: 480px;
+  padding:10px;
+}
+.flexcontainer {
+  width:100%;
+  max-width: 1250px;
+  margin: 40px auto;
+}
+

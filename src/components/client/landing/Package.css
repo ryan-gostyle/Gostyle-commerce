@@ -1,0 +1,40 @@
+.packages{
+    min-height: 300px;
+    margin-top: 50px;
+}
+
+.package-1,.package-2,.package-3{
+    padding: 5px 20px;
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
+.packages .row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.packages h3{
+    text-align: center;
+    font-weight:700;
+}
+.packages span{
+    position: absolute;
+    bottom:5px;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-weight:500;
+}
+
+.packages ul{
+    padding-left:0;
+}
+.packages li{
+    padding: 5px;
+    list-style: none;
+    border-bottom: 1px solid #212529;
+}

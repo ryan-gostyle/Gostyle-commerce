@@ -1,0 +1,58 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+.bg-light {
+    background-color: #fff !important;
+    line-height: 70px;
+}
+
+
+@media (min-width: 320px){
+    .login,.login:hover{
+        max-width:250px;
+        margin: 0 auto;
+        background:#ffef00d6;
+        border-radius: 7px;
+        padding: 2px 50px !important;
+        border: 2px solid #000;
+    }
+}
+@media (min-width: 468px){
+    .login,.login:hover{
+        max-width:250px;
+        margin: 0 auto;
+        background:#ffef00d6;
+        border-radius: 7px;
+        padding: 2px 50px !important;
+        border: 2px solid #000;
+    }
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .login,.login:hover{
+        float: right;
+        margin: 30px 0;
+        position: absolute;
+        right: 5px;
+        background:#ffef00d6;
+        border-radius: 7px;
+        padding: 2px 50px !important;
+        border: 2px solid #000;
+    }
+    }
+    @media (min-width: 1028px){
+        .login,.login:hover{
+            float: right;
+            margin: 30px 0;
+            position: absolute;
+            right: 20px;
+            background:#ffef00d6;
+            border-radius: 7px;
+            padding: 2px 50px !important;
+            border: 2px solid #000;
+        }
+    }
+.nav-link{
+    color: #000 !important;
+}

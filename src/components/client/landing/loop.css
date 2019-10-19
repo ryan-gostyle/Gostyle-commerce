@@ -1,0 +1,10 @@
+.loop{
+    min-height: auto;
+    margin: 30px 0;
+}
+.loop h2{
+    font-weight:900!important;
+}
+.loop .sub-title{
+    font-weight:600!important;
+}
