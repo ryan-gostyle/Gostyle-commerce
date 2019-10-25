@@ -31,15 +31,7 @@ h3{
   font-weight:900;
   margin-bottom: 10px;
 }
-.hero .row{
-  background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
-  background-position: bottom right;
-  text-align: center;
-  background-repeat: no-repeat;
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 @media (min-width: 320px){
   .hero .row .hero-col-1 {
     padding:20px ;
@@ -47,6 +39,17 @@ h3{
   }
   .hero h1{
       font-size: 35px;
+      text-align: left;
+  }
+  .hero .row{
+    /* background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg); */
+    background-position: bottom;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #deeaf8 ;
   }
 }
 @media (min-width: 469px){
@@ -56,6 +59,17 @@ h3{
   }
   .hero h1{
     font-size: 35px;
+    text-align: center;
+}
+.hero .row{
+  /* background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg); */
+  background-position: bottom right;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #deeaf8 ;
 }
 }
 @media (min-width: 992px){
@@ -65,6 +79,17 @@ h3{
   }
   .hero h1{
     font-size: 67px;
+    text-align: left;
+}
+.hero .row{
+  background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
+  background-position: bottom right;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
 }
 }
 @media (min-width: 1024px){
@@ -74,6 +99,17 @@ h3{
   }
   .hero h1{
     font-size: 67px;
+    text-align: left;
+}
+.hero .row{
+  background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
+  background-position: bottom right;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
 }
 }
 
@@ -91,7 +127,7 @@ h3{
   background-color:#64a4dfc7; 
 }
 .we-work{
-  background-color:#ffef00d6; 
+  background-color:#fce779; 
 }
 img{
   width: 100%;

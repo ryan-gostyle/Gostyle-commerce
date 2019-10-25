@@ -8,7 +8,7 @@
     border-bottom: 1px solid #000;
 }
 .ant-tabs-ink-bar{
-    background-color:#ffef00d6;
+    background-color:#fce779;
 }
 .ant-tabs-nav .ant-tabs-tab-active{
     color:#000;
@@ -24,7 +24,7 @@
     height: 51px;
 }
 .ant-input:hover,.ant-select-selection:hover {
-    border-color: #ffef00d6;
+    border-color: #fce779;
     border-right-width: 5px !important;
 }
 .ant-select-selection__rendered{
@@ -39,8 +39,8 @@
 }
 .ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active, .ant-btn{
     width:70%;
-    border-color: #ffef00d6;
-    background-color: #ffef00d6;
+    border-color: #fce779;
+    background-color: #fce779;
     height:auto;
     font-size:20px;
     font-weight:600;
@@ -48,7 +48,7 @@
     border-radius: 5px;
 }
 .ant-checkbox-input:checked{
-    background-color:#ffef00d6;
+    background-color:#fce779;
 }
 .ant-time-picker-input{
     margin: 2px;
@@ -62,9 +62,9 @@
     width: 50%;
 }
 .ant-input:hover{
-    border-color:#ffef00d6 !important;
+    border-color:#fce779 !important;
 }
 .ant-time-picker-input:hover {
-    border-color: #ffef00d6;
+    border-color: #fce779;
     border-right-width: 5px !important;
 }

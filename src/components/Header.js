@@ -29,13 +29,13 @@ import {
                 <NavLink href="/how-we-work">How we work</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/our-collaborations">Our Collaborations</NavLink>
+                <NavLink href="/our-collaborations">Our collaborations</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/about-us">About us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/our-services">Our Services</NavLink>
+                <NavLink href="/our-services">Our services</NavLink>
               </NavItem>
               <NavItem>
               <NavLink href="" className="login btn">Login</NavLink>

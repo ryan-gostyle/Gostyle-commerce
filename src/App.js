@@ -47,7 +47,7 @@ function App() {
         </Row>
       </Grid>
       <Solutions />
-      <hr style={{ height: "30px", backgroundColor: "#ffef00d6", border: "#ffef00d6" }} />
+      <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} />
       <Collaborate />
       <Packages />
       <Customize />

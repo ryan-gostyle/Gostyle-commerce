@@ -9,20 +9,42 @@
     .login,.login:hover{
         max-width:250px;
         margin: 0 auto;
-        background:#ffef00d6;
+        background:#fce779;
         border-radius: 7px;
         padding: 2px 50px !important;
         border: 2px solid #000;
+    }
+    .navbar-brand {
+        max-width: initial;
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 16px;
+        font-weight: 900 !important;
+        line-height: inherit;
+        white-space: nowrap;
     }
 }
 @media (min-width: 468px){
     .login,.login:hover{
         max-width:250px;
         margin: 0 auto;
-        background:#ffef00d6;
+        background:#fce779;
         border-radius: 7px;
         padding: 2px 50px !important;
         border: 2px solid #000;
+    }
+    .navbar-brand {
+        max-width: initial;
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 20px;
+        font-weight: 900 !important;
+        line-height: inherit;
+        white-space: nowrap;
     }
 }
 @media (min-width: 992px){
@@ -35,10 +57,21 @@
         margin: 30px 0;
         position: absolute;
         right: 5px;
-        background:#ffef00d6;
+        background:#fce779;
         border-radius: 7px;
         padding: 2px 50px !important;
         border: 2px solid #000;
+    }
+    .navbar-brand {
+        max-width: 100px;
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 29px;
+        font-weight: 900 !important;
+        line-height: inherit;
+        white-space: nowrap;
     }
     }
     @media (min-width: 1028px){
@@ -47,10 +80,21 @@
             margin: 30px 0;
             position: absolute;
             right: 20px;
-            background:#ffef00d6;
+            background:#fce779;
             border-radius: 7px;
             padding: 2px 50px !important;
             border: 2px solid #000;
+        }
+        .navbar-brand {
+            max-width: 100px;
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 29px;
+            font-weight: 900 !important;
+            line-height: inherit;
+            white-space: nowrap;
         }
     }
 .nav-link{
