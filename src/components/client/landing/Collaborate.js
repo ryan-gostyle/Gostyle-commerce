@@ -10,9 +10,9 @@ export default class Collaborate extends Component {
                         <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/7.png"/>   
                     </Col>
                     <Col xs={12} md={6}>
-                        <h3 style={{textAlign:"left"}}>Collaborate <span className="realtime">real-time</span></h3> 
-                        <h3 style={{textAlign:"left"}}>with your <span className="dedicated">Dedicated Team!</span></h3> 
-                        <p>Our model isall about you. Whenever you need us, we're here to help you reach new audiences, connect with other businesses and transform your marketing efforts (among other things) Born in Shareditch, this walk-in, pay-by-the-hour digital and marketing services is the first of its kind - anyone can simply book online and work side by side with specialists, without fuss or extortionate fees of a traditional agency.</p>
+                        <h3 style={{textAlign:"left"}}><span className="dedicated">Build, Optimize and Elevate</span> </h3> 
+                        <h3 style={{textAlign:"left",maxWidth:"500px"}}>your eCommerce with your dedicated team - side by side</h3> 
+                        <p>Our model is all about you. Whenever you need us, we're here to help you reach new audiences, connect with other businesses and transform your marketing efforts (among</p>
                     </Col>
                 </Row>
             </Grid>

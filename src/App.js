@@ -1,7 +1,5 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-import Typed from 'react-typed';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import './App.css';
 import Header1 from './components/Header'
 import Footer from './components/Footer'
@@ -11,17 +9,25 @@ import Customize from './components/client/landing/Customize'
 import Feature from './components/client/landing/Feature'
 import Cooperation from './components/client/landing/Cooperation'
 import Packages from './components/client/landing/Packages'
+import Wework from './components/client/landing/Wework'
 import Loop from './components/client/landing/Loop'
 import Partners from './components/client/landing/Partners'
 import Notable from './components/client/landing/Notable'
-
+import Hero from './components/client/landingv2/Hero'
+import Nutshell from './components/client/landingv2/Nutshell'
+import FeaturedWorks from './components/client/landingv2/FeaturedWorks'
+import Task from './components/client/landingv2/Task'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div className="App">
       <Header1 />
-      <Grid fluid className="hero">
+      <Hero/>
+      <Nutshell/>
+      <Task/>
+      <FeaturedWorks/>
+      {/* <Grid fluid className="hero">
         <Row>
           <Col xs={12} md={5} className="hero-col-1">
             <h1>Let's Build</h1>
@@ -45,17 +51,19 @@ function App() {
             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/1.png" />
           </Col>
         </Row>
-      </Grid>
-      <Solutions />
-      <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} />
-      <Collaborate />
-      <Packages />
-      <Customize />
-      <Cooperation />
-      <Partners />
-      <Feature />
-      <Notable />
-      <Loop />
+      </Grid> */}
+      {/* <Solutions /> */}
+      {/* <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} /> */}
+      {/* <Collaborate /> */}
+      {/* <Packages /> */}
+      {/* <Wework /> */}
+      {/* <Customize /> */}
+      {/* <Cooperation /> */}
+      {/* <Partners /> */}
+      {/* <Feature /> */}
+      {/* <Notable /> */}
+      {/* <Loop /> */}
+
       <Footer/>
     </div>
   );

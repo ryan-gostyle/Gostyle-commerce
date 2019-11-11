@@ -10,7 +10,7 @@ export default class Solutions extends Component {
                         <h2 style={{textAlign:"center"}}>What we do?</h2> 
                     </Col>
                     <Col xs={12} md={12} >
-                        <h1 className="solution-commerce">eCommerce Solutions</h1> 
+                        <h1 className="solution-commerce">We Provide Digital End-to-End Ecommerce Solutions</h1> 
                     </Col>
                     <Col xs={12} md={12}>
                         <div className="flexcontainer container">
@@ -20,11 +20,11 @@ export default class Solutions extends Component {
                             </div>
                             <div className="solutions-img">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/3.png"/>
-                                <p>Web Development & Design</p> 
+                                <p>eCommerce Development & Design</p> 
                             </div>
                             <div className="solutions-img">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/4.png"/>
-                                <p>Social Media Marketing</p> 
+                                <p>Inbound Marketing for all eCommerce channels</p> 
                             </div>
                             <div className="solutions-img">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/5.png"/>
