@@ -24,7 +24,7 @@ class TokenForm extends Component {
     time: null,
     date: null,
   }
-  onChange = (time, timeString) =>{
+  onChange = (time, timeString) => {
     this.setState({ time: timeString });
   }
   onChange1 = (time, timeString) => {
@@ -60,26 +60,27 @@ class TokenForm extends Component {
               console.log(error.response.data);
               console.log(error.response.status);
               console.log(error.response.headers);
-              MySwal.fire({
-                title: "Error",
-                text: error.response.data.error,
-                icon: 'error',
-            });
+              Object.keys(error.response.data).map(function(key, index) {
+                  MySwal.fire({
+                    title: "Error",
+                    text: error.response.data[key][0],
+                    icon: 'error',
+                });
+              });
               // currentComponent.setState({ status: "error", message: error.response.data })
-            }else
-            {
+            } else {
               MySwal.fire({
                 title: "Error",
                 text: "Error Try Again later",
                 icon: 'error',
-            });
+              });
             }
           });
         if (await submit) {
-            MySwal.fire({
-              title: "Booked!",
-              text: "We'll get back to you, Check your mail ;)",
-              icon: "success"
+          MySwal.fire({
+            title: "Booked!",
+            text: "We'll get back to you, Check your mail ;)",
+            icon: "success"
           });
         }
       }
