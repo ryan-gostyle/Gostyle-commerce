@@ -51,22 +51,22 @@ export default class FeaturedWorks extends Component {
                         <div className="flexcontainer container">
                             <Slider {...settings}>
                                 <div xs={12} md={4} className="featuredworks-1">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature10.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-2">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature11.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-3">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature6.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-1">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature7.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-2">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature8.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-3">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+4.png" />
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature9.png" />
                                 </div>
                             </Slider>
                         </div>

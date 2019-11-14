@@ -15,6 +15,7 @@ export default class Section3 extends Component {
                         <Button size="large" className="btns">Locations</Button>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
+                        <img src={'https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature2.png'} />
                     </Col>
                 </Row>
             </Grid>
