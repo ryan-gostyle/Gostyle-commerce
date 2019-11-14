@@ -34,6 +34,7 @@ import Booking from './components/client/landingv2/booking';
 import Partners from './components/client/landingv2/Partners'
 import Last from './components/client/landingv2/final';
 import First from './components/client/landing/first';
+import login from './components/client/accounts/login';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/commerce" component={Commerce} />
         <Route exact path="/how-we-work" component={HowWeWork} />
+        <Route exact path="/login" component={login} />
       </Switch>
     </Router>
   );
@@ -87,9 +89,9 @@ function Commerce() {
       <Customize />
 
       <Feature />
-     {/*  <Notable />
+      {/*  <Notable />
       <Loop /> */}
-      <Footer/>
+      <Footer />
     </div>
   )
 }
