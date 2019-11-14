@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Typed } from 'react-typed';
+import Typed from 'react-typed';
 export default class First extends Component {
     render() {
         return (

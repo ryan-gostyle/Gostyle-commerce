@@ -75,18 +75,21 @@ function LandingPage() {
 function Commerce() {
   return (
     <div>
+      <Header1 />
       <First />
       <Solutions />
       <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} />
       <Collaborate />
-      <Packages />
       <Wework />
-      <Customize />
       <Cooperation />
       <Partners />
+      <Packages />
+      <Customize />
+
       <Feature />
-      <Notable />
-      <Loop />
+     {/*  <Notable />
+      <Loop /> */}
+      <Footer/>
     </div>
   )
 }

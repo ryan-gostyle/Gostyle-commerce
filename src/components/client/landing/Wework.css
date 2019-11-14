@@ -8,6 +8,9 @@
     min-height: 450px;
     margin-top:80px;
 }
+.work3{
+    margin-top:10px;
+}
 
 .wework-h1{
     text-align: center;
@@ -89,7 +92,7 @@
     }
     .wework-img{
         text-align: center;
-        width:20%;
+        width:25%;
         display: inline-block;
     }
 }
