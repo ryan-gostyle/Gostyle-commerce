@@ -1,5 +1,6 @@
 import React from 'react';
 import 'antd/dist/antd.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header1 from './components/Header'
 import Footer from './components/Footer'
@@ -11,7 +12,7 @@ import Cooperation from './components/client/landing/Cooperation'
 import Packages from './components/client/landing/Packages'
 import Wework from './components/client/landing/Wework'
 import Loop from './components/client/landing/Loop'
-import Partners from './components/client/landing/Partners'
+// import Partners from './components/client/landing/Partners'
 import Notable from './components/client/landing/Notable'
 import Hero from './components/client/landingv2/Hero'
 import Nutshell from './components/client/landingv2/Nutshell'
@@ -23,58 +24,85 @@ import EcomSolution from './components/client/landingv2/EcomSolution';
 import Mobile from './components/client/landingv2/Mobile';
 import InMarket from './components/client/landingv2/InMarket';
 import Website from './components/client/landingv2/Website';
+import Section1 from './components/client/how-we-work/section1';
+import Section2 from './components/client/how-we-work/section2';
+import Section3 from './components/client/how-we-work/section3';
+import Section4 from './components/client/how-we-work/section4';
+import Section5 from './components/client/how-we-work/section5';
+import Clients from './components/client/landingv2/clients';
+import Booking from './components/client/landingv2/booking';
+import Partners from './components/client/landingv2/Partners'
+import Last from './components/client/landingv2/final';
+import First from './components/client/landing/first';
+
+
 function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/commerce" component={Commerce} />
+        <Route exact path="/how-we-work" component={HowWeWork} />
+      </Switch>
+    </Router>
+  );
+}
+
+function LandingPage() {
   return (
     <div className="App">
       <Header1 />
-      <Hero/>
-      <Nutshell/>
-      <Task/>
-      <FeaturedWorks/>
-      <EcomSolution/>
-      <Website/>
-      <Mobile/>
-      <InMarket/>
-      {/* <Grid fluid className="hero">
-        <Row>
-          <Col xs={12} md={5} className="hero-col-1">
-            <h1>Let's Build</h1>
-            <h1 style={{ marginBottom: 15 }} >Your &nbsp;
-            <span className="bold-font-600"><Typed
-                strings={["Webstore", "SEO", "Brand"]}
-                typeSpeed={200}
-                backSpeed={100}
-                loop
-                smartBackspace
-                shuffle={false}
-                backDelay={3}
-                fadeOut={false}
-                fadeOutDelay={100}
-                loopCount={0}
-                showCursor
-                cursorChar="|" /></span></h1>
-            <a href="#" className="book-now">BOOK NOW</a><a href="#" className="we-work">HOW WE WORK</a>
-          </Col>
-          <Col xs={12} md={7}>
-            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/1.png" />
-          </Col>
-        </Row>
-      </Grid> */}
-      {/* <Solutions /> */}
-      {/* <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} /> */}
-      {/* <Collaborate /> */}
-      {/* <Packages /> */}
-      {/* <Wework /> */}
-      {/* <Customize /> */}
-      {/* <Cooperation /> */}
-      {/* <Partners /> */}
-      {/* <Feature /> */}
-      {/* <Notable /> */}
-      {/* <Loop /> */}
+      <Hero />
+      <Nutshell />
+      <Task />
+      <FeaturedWorks />
+      <EcomSolution />
+      <Website />
+      <Mobile />
+      <InMarket />
+      <Clients />
+      <Booking />
+      <Partners />
+      <Last />
 
-      <Footer/>
+
+      <Footer />
     </div>
-  );
+  )
+
+}
+
+function Commerce() {
+  return (
+    <div>
+      <First />
+      <Solutions />
+      <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} />
+      <Collaborate />
+      <Packages />
+      <Wework />
+      <Customize />
+      <Cooperation />
+      <Partners />
+      <Feature />
+      <Notable />
+      <Loop />
+    </div>
+  )
+}
+
+function HowWeWork() {
+  return (
+    <div className="App">
+      <Header1 />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Footer />
+    </div>
+  )
 }
 
 export default App;

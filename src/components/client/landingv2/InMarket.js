@@ -11,8 +11,8 @@ export default class InMarket extends Component {
             <Grid fluid>
                 <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} lg={6}>
-                        <h1 style={{ textAlign: "center" }}>Custom Applications & Mobile App Development </h1>
-                        <p>Let us know your idea and let’s explore how we can make it happen. From booking platforms to Mobile Applications - Let’s execute your ideas and make it happen. </p>
+                        <h1 style={{ textAlign: "center" }}>Inbound Marketing </h1>
+                        <p>We provide you with your own eCommerce websiteand an all-in-one dashboard to manage your zilingo, lazada, shoppee and zalora! Let us set you up for your success with seamless and optimized eCommerce solutions for your brand!  </p>
                         <Row>
                             <Col lg={6}>
                                 <Button className="btn">Book Now</Button>

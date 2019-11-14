@@ -1,0 +1,21 @@
+.btns {
+    float: left;
+    background: orange;
+    color: white;
+    width: 30%
+}
+
+.number {
+    font-size: 10em
+}
+
+.title {
+    font-size: 5.5em
+}
+
+.description {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    width: 90%;
+    text-align: left;
+}

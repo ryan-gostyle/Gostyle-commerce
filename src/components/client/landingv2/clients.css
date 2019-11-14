@@ -1,0 +1,9 @@
+.featuredworks{
+    min-height: 200px;
+    margin-top: 50px;
+}
+.featuredworks-1,.featuredworks-2,.featuredworks-3{
+    max-width: 250px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
