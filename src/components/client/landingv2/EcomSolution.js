@@ -7,8 +7,8 @@ export default class EcomSolution extends Component {
     render() {
 
         return (
-            <Grid fluid>
-                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }}>
+            <div>
+                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }} className="ecom">
                     <Col xs={12} md={12} lg={6} className="ecom-background" >
                         <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecomsolution.png" />
                     </Col>
@@ -23,7 +23,7 @@ export default class EcomSolution extends Component {
                         </Row>
                     </Col>
                 </Row>
-            </Grid >
+            </div >
         )
     }
 }

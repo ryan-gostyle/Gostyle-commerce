@@ -8,9 +8,9 @@ export default class Website extends Component {
     render() {
 
         return (
-            <Grid fluid>
-                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }}>
-                    <Col xs={12} lg={8}>
+            <div >
+                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }} className="website">
+                    <Col xs={12} lg={8} className="website-background">
                         <Card>
                             <Row>
                                 <Col xs={12} lg={6}>
@@ -29,7 +29,7 @@ export default class Website extends Component {
                         </Card>
                     </Col>
                 </Row>
-            </Grid >
+            </div >
         )
     }
 }

@@ -1,11 +1,4 @@
-.tasks-img img{
-    width: 80%;
-    height: 220px;
-    display: block;
-    margin: 0 auto;
-    background: #fce779;
-    padding: 20px;
-}
+
 .tasks{
     min-height: 450px;
     margin-top:80px;
@@ -39,6 +32,15 @@
         width:100%;
         display: inline-block;
     }
+    .tasks-img img{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        background: #fce779;
+        padding: 20px;
+    }
+    
 }
 @media (min-width:481px)  { 
     h1{
@@ -54,6 +56,14 @@
         width:50%;
         display: inline-block;
     }
+    .tasks-img img{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        background: #fce779;
+        padding: 20px;
+    }
 }
 @media (min-width:641px)  { 
     h1{
@@ -68,6 +78,14 @@
         text-align: center;
         width:25%;
         display: inline-block;
+    }
+    .tasks-img img{
+        width: 80%;
+        height: 220px;
+        display: block;
+        margin: 0 auto;
+        background: #fce779;
+        padding: 20px;
     }
 }
 
@@ -85,6 +103,14 @@
         width:25%;
         display: inline-block;
     }
+    .tasks-img img{
+        width: 80%;
+        height: 220px;
+        display: block;
+        margin: 0 auto;
+        background: #fce779;
+        padding: 20px;
+    }
 }
 
 @media (min-width:1025px) { 
@@ -100,5 +126,13 @@
         text-align: center;
         width:25%;
         display: inline-block;
+    }
+    .tasks-img img{
+        width: 80%;
+        height: 220px;
+        display: block;
+        margin: 0 auto;
+        background: #fce779;
+        padding: 20px;
     }
 }
