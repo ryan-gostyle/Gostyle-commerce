@@ -1,6 +1,9 @@
 .cooperation{
     min-height: 350px;
     margin-top: 50px;
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/sharvd.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cooperation-img img {
     width: 100px;
