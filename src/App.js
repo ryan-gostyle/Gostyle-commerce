@@ -19,6 +19,10 @@ import FeaturedWorks from './components/client/landingv2/FeaturedWorks'
 import Task from './components/client/landingv2/Task'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import EcomSolution from './components/client/landingv2/EcomSolution';
+import Mobile from './components/client/landingv2/Mobile';
+import InMarket from './components/client/landingv2/InMarket';
+import Website from './components/client/landingv2/Website';
 function App() {
   return (
     <div className="App">
@@ -27,6 +31,10 @@ function App() {
       <Nutshell/>
       <Task/>
       <FeaturedWorks/>
+      <EcomSolution/>
+      <Website/>
+      <Mobile/>
+      <InMarket/>
       {/* <Grid fluid className="hero">
         <Row>
           <Col xs={12} md={5} className="hero-col-1">
