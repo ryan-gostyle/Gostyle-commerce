@@ -35,6 +35,7 @@ import Partners from './components/client/landingv2/Partners'
 import Last from './components/client/landingv2/final';
 import First from './components/client/landing/first';
 import login from './components/client/accounts/login';
+import cookie from 'react-cookies';
 
 
 function App() {
@@ -45,9 +46,15 @@ function App() {
         <Route exact path="/commerce" component={Commerce} />
         <Route exact path="/how-we-work" component={HowWeWork} />
         <Route exact path="/login" component={login} />
+        <Route exact path="/logout" component={logout} />
       </Switch>
     </Router>
   );
+}
+
+function logout() {
+  cookie.remove('token')
+  window.location.href = '/'
 }
 
 function LandingPage() {

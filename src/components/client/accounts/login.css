@@ -31,11 +31,7 @@
 .btn-submit{
     margin-top:7%;
     color: white;
-    background: -webkit-linear-gradient(right,#21d4fd,#b721ff);
-}
-.btn-submit:hover{
-    color: black;
-    background: -webkit-linear-gradient(right,#21d4fd,#b721ff);
+    background:#fce779;
 }
 
 .cls-1
