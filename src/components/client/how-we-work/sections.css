@@ -4,10 +4,6 @@
     color: white;
     /* width: 40% */
 }
-.booking{
-    width:100%;
-}
-
 .booking1{
     width: 100%;
     background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/how3.png');
@@ -33,4 +29,10 @@
     word-break: break-word;
     width: 90%;
     text-align: left;
+}
+
+@media only screen and (min-width: 992px){
+    .texts{
+        padding-left: 30px;
+    }
 }
