@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 export default class Section1 extends Component {
     render() {
         return (
-            <Grid fluid className="booking">
+            <Grid className="booking">
                 <Row middle="xs" center="xs" style={{height:"80vh"}}>
                     <Col xs={12} md={12} lg={6}>
                         <h1 style={{textAlign:"center", fontSize:"5em"}}><b>HOW WE WORK</b></h1>

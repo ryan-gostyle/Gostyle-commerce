@@ -15,7 +15,6 @@ export default class Section3 extends Component {
                         <Button size="large" className="btns">Locations</Button>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-
                     </Col>
                 </Row>
             </Grid>

@@ -5,6 +5,16 @@
     width: 30%
 }
 
+.booking1{
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/how3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking2{
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/how5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .number {
     font-size: 10em
 }
