@@ -2,3 +2,25 @@
     background:#fce779;
     border-radius: 7px;
 }
+.ecom-background::before{
+    display: block;
+    content: "";
+    max-width: 400px;
+    height: 100px;
+    background: transparent url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+8.png') no-repeat;
+    background-size:contain;
+    position: absolute;
+    left: 0;   
+    right:0;
+}
+.ecom-background img{
+    margin-top: 50px;
+    z-index: 2;
+}
+.ecom-background-triangle::after{
+    display: block;
+    content: "";
+    width: 3px;
+    height: auto;
+    background: transparent url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+15.png') no-repeat;
+}
