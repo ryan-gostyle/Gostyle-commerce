@@ -8,6 +8,7 @@ import {
     Icon
 } from 'antd';
 import Api from '../../../Api';
+import cookie from 'react-cookies';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import { Grid, Row, Col } from 'react-flexbox-grid';
@@ -26,9 +27,8 @@ class Login extends Component {
             if (!err) {
                 var submit = await Api.post('login', {
                     email: values.email,
-                    password: values.email,
-                })
-                    .catch(function (error) {
+                    password: values.password,
+                }).catch(function (error) {
                         if (error.response) {
                             // The request was made and the server responded with a status code
                             // that falls out of the range of 2xx
@@ -39,7 +39,7 @@ class Login extends Component {
                             Object.keys(error.response.data).map(function (key, index) {
                                 MySwal.fire({
                                     title: "Error",
-                                    text: error.response.data[key][0],
+                                    text: error.response.data[key],
                                     icon: 'error',
                                 });
                             });
@@ -53,11 +53,14 @@ class Login extends Component {
                         }
                     });
                 if (await submit) {
+                    cookie.save('token', submit.data.token, {path: '/'});
                     MySwal.fire({
-                        title: "Booked!",
-                        text: "We'll get back to you, Check your mail ;)",
-                        icon: "success"
-                    });
+                        title: "Logged in!",
+                        text: submit.data.token,
+                        icon: "success",
+                    }).then(() => {
+                        return window.location.href = "/";
+                      });
                 }
             }
         });
