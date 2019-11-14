@@ -10,24 +10,95 @@ import {
   TimePicker,
   DatePicker,
 } from 'antd';
+import Api from '../../../Api';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+
+const MySwal = withReactContent(Swal)
 const { Option } = Select;
-// const AutoCompleteOption = AutoComplete.Option;
-const dateFormat = 'YYYY/MM/DD';
-function onChange(time, timeString) {
-  console.log(time, timeString);
-}
+const dateFormat = 'YYYY-MM-DD';
+
 class TokenForm extends Component {
+
+  state = {
+    time: null,
+    date: null,
+  }
+  onChange = (time, timeString) => {
+    this.setState({ time: timeString });
+  }
+  onChange1 = (time, timeString) => {
+    // console.log(timeString);
+    this.setState({ date: timeString });
+  }
+
+
+  handleSubmit = async e => {
+    e.preventDefault();
+
+    this.props.form.validateFieldsAndScroll(async (err, values) => {
+      if (!err) {
+        var submit = await Api.post('register', {
+          name: values.fullname,
+          brand_company: values.brand,
+          phone_number: "09" + values.phone,
+          email: values.email,
+          package: values.package,
+          password: values.email,
+          password_confirmation: values.email,
+          status: "active",
+          location: "Makati",
+          place: values.place,
+          date: this.state.date,
+          time: this.state.time,
+        })
+          .catch(function (error) {
+            if (error.response) {
+              // The request was made and the server responded with a status code
+              // that falls out of the range of 2xx
+              console.log(error.response);
+              console.log(error.response.data);
+              console.log(error.response.status);
+              console.log(error.response.headers);
+              Object.keys(error.response.data).map(function(key, index) {
+                  MySwal.fire({
+                    title: "Error",
+                    text: error.response.data[key][0],
+                    icon: 'error',
+                });
+              });
+              // currentComponent.setState({ status: "error", message: error.response.data })
+            } else {
+              MySwal.fire({
+                title: "Error",
+                text: "Error Try Again later",
+                icon: 'error',
+              });
+            }
+          });
+        if (await submit) {
+          MySwal.fire({
+            title: "Booked!",
+            text: "We'll get back to you, Check your mail ;)",
+            icon: "success"
+          });
+        }
+      }
+    });
+  };
+
+
   render() {
     const { getFieldDecorator } = this.props.form;
 
     const prefixSelector = getFieldDecorator('prefix', {
-      initialValue: '63',
+      initialValue: '09',
     })(
       <Select style={{ width: 70 }}>
-        <Option value="63">+63</Option>
-        <Option value="87">+87</Option>
+        <Option value="09">09</Option>
       </Select>,
     );
+
 
 
     return (
@@ -85,10 +156,10 @@ class TokenForm extends Component {
           )}
         </Form.Item>
         <Form.Item>
-        <DatePicker defaultValue={moment('2015/01/01', dateFormat)} format={dateFormat} />
-        <TimePicker use12Hours onChange={onChange} />
+          <DatePicker onChange={this.onChange1} defaultValue={moment('2015-01-01', dateFormat)} format={dateFormat} />
+          <TimePicker use12Hours onChange={this.onChange} />
         </Form.Item>
-       
+
         <Form.Item>
           {getFieldDecorator('agreement', {
             valuePropName: 'checked',
