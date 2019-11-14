@@ -24,3 +24,83 @@
     height: auto;
     background: transparent url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+15.png') no-repeat;
 }
+.mobile-background{
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Asset+18.png');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: top right;
+    position: relative;
+    
+}
+
+@media screen and (min-width: 320px) {
+    .mobile-background .row:nth-child(1){
+        position: "";
+        top: "";
+        -ms-transform:" ";
+        transform: "";
+    }
+    .inMarket-background .inbound-tagline{
+        position: "";
+        top: "";
+        -ms-transform:" ";
+        transform: "";
+    }
+}
+@media screen and (min-width: 900px) {
+    .mobile-background .row:nth-child(1){
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .inMarket-background .inbound-tagline{
+        position: "";
+        top: "";
+        -ms-transform:" ";
+        transform: "";
+    }
+}
+
+.inMarket-background{
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 500px;
+    position: relative;
+}
+.inMarket-background .inbound-tagline{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.featureworks {
+    margin: 35px 0;
+}
+.featureworks .row {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.featureworks img {
+    max-width: 180px;
+}
+.partners img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    padding: 10px;
+}
+.last{
+    margin:0 auto;
+}
+.last h1{
+    font-weight: 700 !important;
+}
+.last p{
+    text-align: left;
+}
+.last .ant-btn{
+    border-radius: 25px;
+}

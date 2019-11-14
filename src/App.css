@@ -34,7 +34,9 @@ h3{
   font-weight:900;
   margin-bottom: 10px;
 }
-
+.btn{
+  line-height: 1 !important;
+}
 @media (min-width: 320px){
   .hero .row .hero-col-1 {
     padding:20px ;

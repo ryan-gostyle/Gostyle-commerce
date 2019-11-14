@@ -20,13 +20,9 @@ export default class Website extends Component {
                                 <Col lg={6}>
                                     <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/web.png" />
                                 </Col>
-                                <Col xs={12} lg={6}>
-                                    <br />
-                                    <Button className="btn">Book Now</Button>
-                                </Col>
-                                <Col xs={12} lg={6}>
-                                    <br />
-                                    <Button className="btn">Learn More</Button>
+                                <Col style={{margin:"0 auto"}}>
+                                    <Button className="btn" style={{margin:"5px 10px"}}>Book Now</Button>
+                                    <Button className="btn" style={{margin:"5px 10px"}}>Learn More</Button>
                                 </Col>
                             </Row>
 

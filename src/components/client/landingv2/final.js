@@ -8,8 +8,8 @@ export default class Last extends Component {
     render() {
 
         return (
-            <Grid fluid>
-                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden' }}>
+            <Grid fluid className="last">
+                <Row middle="xs" center="xs" style={{ height: "100vh" }} style={{ overflow: 'hidden',background:'#f5f5f5' }}>
                     <Col xs={12} md={12} lg={6}>
                         <h1 >The buzzbar app. </h1>
                         <h1 >everything in one place. </h1>

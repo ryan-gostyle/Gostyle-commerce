@@ -18,7 +18,7 @@ export default class Partners extends Component {
                   <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/20.png" />
                 </Col>
                 <Col xs={6} md={6}>
-                  <img style={{maxHeight:"350px"}} src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/the+study.png" />
+                  <img style={{maxHeight:"250px"}} src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/the+study.png" />
                 </Col>
               </Row>
             </div>
