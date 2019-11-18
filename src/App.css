@@ -57,7 +57,7 @@ h3{
     display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #deeaf8 ;
+      /* background-color: #deeaf8 ; */
   }
 }
 @media (min-width: 469px){
@@ -72,8 +72,8 @@ h3{
     font-size: 35px;
     text-align: center;
 }
-.hero .row{
-  /* background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg); */
+/* .hero .row{
+  background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
   background-position: bottom right;
   text-align: center;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h3{
     align-items: center;
     justify-content: center;
     background-color: #deeaf8 ;
-}
+} */
 }
 @media (min-width: 992px){
   .hero-asset22 .row .hero-col-1 h1{
@@ -95,7 +95,7 @@ h3{
     font-size: 67px;
     text-align: left;
 }
-.hero .row{
+/* .hero .row{
   background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
   background-position: bottom right;
   text-align: center;
@@ -104,7 +104,7 @@ h3{
     align-items: center;
     justify-content: center;
     background-color: rgba(0,0,0,0);
-}
+} */
 }
 @media (min-width: 1024px){
   .hero-asset22 .row .hero-col-1 h1{
@@ -118,7 +118,7 @@ h3{
     font-size: 67px;
     text-align: left;
 }
-.hero .row{
+/* .hero .row{
   background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
   background-position: bottom right;
   text-align: center;
@@ -127,7 +127,7 @@ h3{
     align-items: center;
     justify-content: center;
     background-color: rgba(0,0,0,0);
-}
+} */
 }
 
 .hero.container-fluid{
@@ -141,7 +141,7 @@ h3{
   margin:5px;
 }
 .book-now{
-  background-color:#64a4dfc7; 
+  background-color:#fce779; 
 }
 .we-work{
   background-color:#fce779; 

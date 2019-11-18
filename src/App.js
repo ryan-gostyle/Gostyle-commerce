@@ -14,28 +14,24 @@ import Wework from './components/client/landing/Wework'
 import Loop from './components/client/landing/Loop'
 // import Partners from './components/client/landing/Partners'
 import Notable from './components/client/landing/Notable'
-import Hero from './components/client/landingv2/Hero'
-import Nutshell from './components/client/landingv2/Nutshell'
-import FeaturedWorks from './components/client/landingv2/FeaturedWorks'
-import Task from './components/client/landingv2/Task'
+import Hero from './components/client/landingv3/Hero'
+import Nutshell from './components/client/landingv3/Nutshell'
+import FeaturedWorks from './components/client/landingv3/FeaturedWorks'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import EcomSolution from './components/client/landingv2/EcomSolution';
-import Mobile from './components/client/landingv2/Mobile';
-import InMarket from './components/client/landingv2/InMarket';
-import Website from './components/client/landingv2/Website';
 import Section1 from './components/client/how-we-work/section1';
 import Section2 from './components/client/how-we-work/section2';
 import Section3 from './components/client/how-we-work/section3';
 import Section4 from './components/client/how-we-work/section4';
 import Section5 from './components/client/how-we-work/section5';
-import Clients from './components/client/landingv2/clients';
-import Booking from './components/client/landingv2/booking';
-import Partners from './components/client/landingv2/Partners'
-import Last from './components/client/landingv2/final';
+import Clients from './components/client/landingv3/clients';
+import Booking from './components/client/landingv3/booking';
+import Last from './components/client/landingv3/final';
 import First from './components/client/landing/first';
 import login from './components/client/accounts/login';
 import cookie from 'react-cookies';
+import HowWeWorks from './components/client/landingv3/HowWeWork';
+import Free from './components/client/landingv3/Free';
 
 
 function App() {
@@ -63,19 +59,23 @@ function LandingPage() {
       <Header1 />
       <Hero />
       <Nutshell />
-      <Task />
       <FeaturedWorks />
+      <Clients />
+      <HowWeWorks/>
+      <Free/>
+      <Booking />
+      <Last />
+      <Footer />
+
+      {/*
       <EcomSolution />
       <Website />
       <Mobile />
       <InMarket />
-      <Clients />
-      <Booking />
-      <Partners />
-      <Last />
+      <Partners /> */}
+      
 
 
-      <Footer />
     </div>
   )
 
@@ -87,11 +87,11 @@ function Commerce() {
       <Header1 />
       <First />
       <Solutions />
-      <hr style={{ height: "30px", backgroundColor: "#fce779", border: "#fce779" }} />
+      
       <Collaborate />
       <Wework />
       <Cooperation />
-      <Partners />
+      {/* <Partners /> */}
       <Packages />
       <Customize />
 

@@ -1,0 +1,70 @@
+.bookings{
+    background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/sharvd.PNG');
+}
+.ant-tabs{
+    border: 2px solid #000;
+}
+.ant-tab-bar{
+    border-bottom: 1px solid #000;
+}
+.ant-tabs-ink-bar{
+    background-color:#fce779;
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+    color:#000;
+}
+.ant-form-item{
+    margin-bottom: 0;
+}
+.ant-form-item-control-wrapper {
+    padding: 5px 10px;
+}
+.ant-input{
+    border-radius: 0;
+    height: 51px;
+}
+.ant-input:hover,.ant-select-selection:hover {
+    border-color: #fce779;
+    border-right-width: 5px !important;
+}
+.ant-select-selection__rendered{
+    line-height: 45px;
+}
+.ant-select-selection{
+    height:50px;
+    border-radius:0;
+}
+.ant-tabs-nav-container{
+    font-size:20px;
+}
+/* .ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active, .ant-btn{
+    width:70%;
+    border-color: #fce779;
+    background-color: #fce779;
+    height:auto;
+    font-size:20px;
+    font-weight:600;
+    min-height: 40px;
+    border-radius: 5px;
+} */
+.ant-checkbox-input:checked{
+    background-color:#fce779;
+}
+.ant-time-picker-input{
+    margin: 2px;
+    height: 51px;
+    border-radius: 0;
+}
+.ant-time-picker{
+    width: 50% !important;
+}
+.ant-calendar-picker{
+    width: 50%;
+}
+.ant-input:hover{
+    border-color:#fce779 !important;
+}
+.ant-time-picker-input:hover {
+    border-color: #fce779;
+    border-right-width: 5px !important;
+}
