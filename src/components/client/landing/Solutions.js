@@ -5,36 +5,23 @@ export default class Solutions extends Component {
     render() {
         return (
             <Grid fluid className="solutions">
-                <Row>
-                    <Col xs={12} md={12} >
-                        <h2 style={{textAlign:"center"}}>What we do?</h2> 
+                <Row middle="xs" center="xs">
+                    <Col xs={12} md={12} lg={6}>
+                        <h1 style={{ fontFamily: "proxima-bold" }}>Custom Shopify Solutions</h1>
+                        <p>Want to keep tabs on your project?Check in on the progress,access your invoices, view documents, book new appointments and more on the Gostyle App </p>
                     </Col>
-                    <Col xs={12} md={12} >
-                        <h1 className="solution-commerce">We Provide Digital End-to-End Ecommerce Solutions</h1> 
-                    </Col>
-                    <Col xs={12} md={12}>
-                        <div className="flexcontainer container">
-                            <div className="solutions-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/2.png"/>
-                                <p>Business Strategy & Branding</p> 
-                            </div>
-                            <div className="solutions-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/3.png"/>
-                                <p>eCommerce Development & Design</p> 
-                            </div>
-                            <div className="solutions-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/4.png"/>
-                                <p>Inbound Marketing for all eCommerce channels</p> 
-                            </div>
-                            <div className="solutions-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/5.png"/>
-                                <p>MultiChannel Management</p> 
-                            </div>
-                            <div className="solutions-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/6.png"/>
-                                <p>Data & Performance Analysis</p> 
-                            </div>
-                        </div>
+                    <Col xs={12} md={12} lg={6}>
+                        <Row center="xs" middle="xs">
+                            <Col lg={6}>
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/salesforce.png" />
+                            </Col>
+                            <Col lg={6}>
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/magento.png" />
+                            </Col>
+                            <Col lg={12}>
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/shopify.png" />
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Grid>

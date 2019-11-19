@@ -32,6 +32,7 @@ import login from './components/client/accounts/login';
 import cookie from 'react-cookies';
 import HowWeWorks from './components/client/landingv3/HowWeWork';
 import Free from './components/client/landingv3/Free';
+import Lastcommerce from './components/client/landing/Last';
 
 
 function App() {
@@ -87,17 +88,16 @@ function Commerce() {
       <Header1 />
       <First />
       <Solutions />
-      
+      <FeaturedWorks />
       <Collaborate />
       <Wework />
+      <div>
+        <br/>
+        <h1 style={{textAlign:"center",fontFamily:"proxima-bold"}}>Custom Solution? Let's talk about it</h1>
+        <br/>
+      </div>
       <Cooperation />
-      {/* <Partners /> */}
-      <Packages />
-      <Customize />
-
-      <Feature />
-      {/*  <Notable />
-      <Loop /> */}
+      <Lastcommerce />
       <Footer />
     </div>
   )

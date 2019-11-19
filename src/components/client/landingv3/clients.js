@@ -8,7 +8,11 @@ export default class Clients extends Component {
             <Grid fluid className="featureworks clients">
                 <Row style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} >
+<<<<<<< HEAD
                         <h2 className="focus-in-expand" style={{ textAlign: "center" }}>Notable Clients</h2>
+=======
+                        <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Notable Clients around the globe!</h2>
+>>>>>>> 59125fa4a3a180342131d9501aa058ab9fdf133b
                     </Col>
                     <Col xs={12} md={12}>
                         <Row middle="xs" center="xs" className="slide-in-bck-center"> 
@@ -28,7 +32,11 @@ export default class Clients extends Component {
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/the+study.png" />
                             </div>
                             <div xs={12} md={4} className="featureworks-3">
+<<<<<<< HEAD
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/stylegenie.png" />
+=======
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/alpha+rock.png" />
+>>>>>>> 59125fa4a3a180342131d9501aa058ab9fdf133b
                             </div>
                             <div xs={12} md={4} className="featureworks-1">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/bys.png" />
@@ -61,6 +69,7 @@ export default class Clients extends Component {
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/custom.png" />
                             </div>
                             <div xs={12} md={4} className="featureworks-1">
+<<<<<<< HEAD
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/docspark.png" />
                             </div>
                             <div xs={12} md={4} className="featureworks-2">
@@ -86,6 +95,12 @@ export default class Clients extends Component {
                             </div>
                             <div xs={12} md={4} className="featureworks-3">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/tavin.jpg" />
+=======
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/payandgo.png" />
+                            </div>
+                            <div xs={12} md={4} className="featureworks-2">
+                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/docspark.png" />
+>>>>>>> 59125fa4a3a180342131d9501aa058ab9fdf133b
                             </div>
                         </Row>
                     </Col>

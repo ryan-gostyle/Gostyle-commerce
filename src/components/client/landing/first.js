@@ -2,32 +2,22 @@
 
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import Typed from 'react-typed';
+import { Button } from 'antd';
 export default class First extends Component {
     render() {
         return (
             <Grid fluid className="hero">
-                <Row>
-                    <Col xs={12} md={5} className="hero-col-1">
-                        <h1>Let's Build</h1>
-                        <h1 style={{ marginBottom: 15 }} >Your &nbsp;
-    <span className="bold-font-600"><Typed
-                                strings={["Webstore", "SEO", "Brand"]}
-                                typeSpeed={200}
-                                backSpeed={100}
-                                loop
-                                smartBackspace
-                                shuffle={false}
-                                backDelay={3}
-                                fadeOut={false}
-                                fadeOutDelay={100}
-                                loopCount={0}
-                                showCursor
-                                cursorChar="|" /></span></h1>
-                        <a href="#" className="book-now">BOOK NOW</a><a href="#" className="we-work">HOW WE WORK</a>
+                <Row middle="xs" center="xs">
+                    <Col xs={12} md={12}>
+                        <img src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/e1.png"} />
                     </Col>
-                    <Col xs={12} md={7}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/1.png" />
+                    <Col xs={12} md={12}>
+                        <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>eCommerce Solutions</h1>
+                        <p>want to keep tabs on you project? Check in on the progress of your work, access your invoices,</p>
+                        <p> view documents, book new appointments and more on the Gostyle App</p>
+                        <br />
+                        <Button style={{marginBottom:"20px"}} className="we-work">LEARN MORE</Button>
+                        <Button style={{marginLeft:"10px",marginBottom:"20px"}} className="book-now">BOOK NOW</Button>
                     </Col>
                 </Row>
             </Grid>

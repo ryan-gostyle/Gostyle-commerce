@@ -39,32 +39,36 @@ export default class Nutshell extends Component {
                 <Grid fluid className="featuredworks tasks color-change-2x">
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
-                            <h2 className="focus-in-expand" style={{ textAlign: "center" }}>What we do in a nutshell</h2>
+                            <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>What we do in a nutshell</h2>
                             <p className="sub-title focus-in-expand" style={{ textAlign: "center" }}>We build digital solutions by bridging the gap between creativity and strategy</p>
                         </Col>
                         <Col xs={12} md={12}>
                             <div className="">
                                 <Row>
                                     <div xs={12} md={4} className="featuredworks-1 ">
-                                        <div className="nut-image-text1 anim fade-in-bottom-1">
+                                        <div className="item anim fade-in-bottom-1 ">
                                             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" onClick={() => this.setModalVisibleA(true)} />
+                                            <p>ECOMMERCE SOLUTIONS</p>
                                         </div>
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-2 ">
-                                        <div className="nut-image-text2 anim fade-in-bottom-2">
+                                        <div className="item anim fade-in-bottom-2">
                                             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/website+design+and+development.png" onClick={() => this.setModalVisibleB(true)} />
+                                            <p>WEBSITE DESIGN & DEVELOPMENT</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-3 ">
-                                        <div className="nut-image-text3  anim fade-in-bottom-3">
+                                        <div className="item  anim fade-in-bottom-3">
                                             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" onClick={() => this.setModalVisibleC(true)} />
+                                            <p>INBOUND MARKETING</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-1 ">
-                                        <div className="nut-image-text4 anim fade-in-bottom-4">
+                                        <div className="item anim fade-in-bottom-4">
                                             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/custom+solutions.png" onClick={() => this.setModalVisibleD(true)} />
+                                            <p>CUSTOM SOLUTIONS</p>
                                         </div>
                                     </div>
                                 </Row>

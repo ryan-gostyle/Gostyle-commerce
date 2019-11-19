@@ -1,36 +1,53 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import './Wework.css';
+import '../landingv3/Nutshell.css';
+import '../landingv3/FeaturedWorks.css';
 export default class Wework extends Component {
     render() {
         return (
-            <Grid fluid className="wework">
-                <Row middle="xs" center="xs">
-                    <Col xs={12} md={12} >
+            <div>
+                <Grid fluid className="featuredworks tasks color-change-2x">
+                    <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
-                            <h1 className="wework-h1">How we work?</h1> 
+                            <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Let's Build Online Store</h2>
                         </Col>
-                        <div className="flexcontainer">
-                            <div xs={6} md={3} lg={4} className="wework-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/8.png"/>
-                                <p>Choose a package</p> 
+                        <Col xs={12} md={12}>
+                            <div className="">
+                                <Row>
+                                    <div xs={12} md={4} className="featuredworks-1 ">
+                                        <div className="item anim fade-in-bottom-1 ">
+                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" />
+                                            <p>ECOMMERCE Website Development</p>
+                                        </div>
+                                    </div>
+                                    <div xs={12} md={4} className="featuredworks-2 ">
+                                        <div className="item anim fade-in-bottom-2">
+                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png"  />
+                                            <p>ECOMMERCE Inbound Marketing</p>
+                                        </div>
+
+                                    </div>
+                                    <div xs={12} md={4} className="featuredworks-3 ">
+                                        <div className="item  anim fade-in-bottom-3">
+                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png"  />
+                                            <p>ECOMMERCE Virtual Assistant</p>
+                                        </div>
+
+                                    </div>
+                                    <div xs={12} md={4} className="featuredworks-1 ">
+                                        <div className="item anim fade-in-bottom-4">
+                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/multichannel-management.png"  />
+                                            <p>MultiChannel Management</p>
+                                        </div>
+                                    </div>
+                                </Row>
                             </div>
-                            <div xs={6} md={3}  lg={4} className="wework-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/9.png"/>
-                                <p>Book your Deicated Team</p> 
-                            </div>
-                            <div xs={6} md={3} lg={4} className="wework-img work3">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/10.png"/>
-                                <p>Await for Booking Confirmation and Details</p> 
-                            </div>
-                            <div xs={6} md={3} lg={4} className="wework-img">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/11.png"/>
-                                <p>Collaborate Real-time</p> 
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </Grid>
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
+
         )
     }
 }
+
