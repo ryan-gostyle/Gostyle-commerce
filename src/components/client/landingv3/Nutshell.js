@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './Nutshell.css';
 import { Modal, Button } from 'antd';
+               import ScrollAnimation from 'react-animate-on-scroll';
 import './FeaturedWorks.css';
 export default class Nutshell extends Component {
     state = {
@@ -71,6 +72,7 @@ export default class Nutshell extends Component {
                         </Col>
                     </Row>
                 </Grid>
+  
                 <Modal
                     visible={this.state.visibleA}
                     onCancel={this.handleCancel}

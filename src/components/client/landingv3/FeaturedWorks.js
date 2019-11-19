@@ -45,7 +45,7 @@ export default class FeaturedWorks extends Component {
             <Grid fluid className="featuredworks">
                 <Row>
                     <Col xs={12} md={12} >
-                        <h2 className="focus-in-expand" style={{ textAlign: "center" }}>Our Featured Works</h2>
+                        <h2 className="focus-in-expand" style={{ textAlign: "center" }}>Featured Works</h2>
                     </Col>
                     <Col xs={12} md={12}>
                         <div className="flexcontainer container">

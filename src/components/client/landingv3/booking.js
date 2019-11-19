@@ -16,10 +16,10 @@ export default class Booking extends Component {
                 <Row>
                     <Col style={{padding:"25px"}} xs={12} md={12} lg={4} lgOffset={8}>
                             <Tabs style={{ backgroundColor: "white" }} defaultActiveKey="1" onChange={callback}>
-                                <TabPane tab="Book Side-by-Side" key="1">
+                                <TabPane tab="Side by side in our office" key="1">
                                     <WrappedRegistrationForm />
                                 </TabPane>
-                                <TabPane tab="Book Remote" key="2">
+                                <TabPane tab="Working Remotely" key="2">
                                     <WrappedRegistrationForm />
                                 </TabPane>
                             </Tabs>

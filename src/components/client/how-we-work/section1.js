@@ -8,7 +8,7 @@ export default class Section1 extends Component {
                 <Row middle="xs" center="xs" style={{height:"100vh"}}>
                     <Col xs={12} md={12} lg={8}>
                         <h1 style={{textAlign:"center", fontSize:"5em"}}><b>HOW WE WORK</b></h1>
-                        <h2 style={{textAlign:"center"}}>Collabortion Reinvented</h2>
+                        <h2 style={{textAlign:"center"}}>Collaboration Reinvented</h2>
                     </Col>
                 </Row>
             </Grid>
