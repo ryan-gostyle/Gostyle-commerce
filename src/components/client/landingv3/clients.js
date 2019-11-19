@@ -5,13 +5,13 @@ import './clients.css';
 export default class Clients extends Component {
     render() {
         return (
-            <Grid fluid className="featureworks">
+            <Grid fluid className="featureworks clients">
                 <Row style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} >
-                        <h2 style={{ textAlign: "center" }}>Our Clients</h2>
+                        <h2 className="focus-in-expand" style={{ textAlign: "center" }}>Our Clients</h2>
                     </Col>
                     <Col xs={12} md={12}>
-                        <Row middle="xs" center="xs">
+                        <Row middle="xs" center="xs" className="slide-in-bck-center"> 
                             <div xs={12} md={4} className="featureworks-1">
                                 <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/fa8.png" />
                             </div>

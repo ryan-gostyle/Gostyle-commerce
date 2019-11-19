@@ -2,12 +2,11 @@
 .tasks{
     min-height: 450px;
     margin-top:80px;
-    background: #fffaf0;
+
     padding:35px;
 }
 .tasks .row{
     margin:0 auto;
-    background:#fffaf0;
     padding:15px;
 }
 
@@ -51,52 +50,61 @@
 
 .nut-image-text1::after{
     content: 'ECOMMERCE SOLUTIONS';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 .nut-image-text2::after{
     content: 'WEBSITE DESIGN & DEVELOPMENT';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 .nut-image-text3::after{
     content: 'INBOUND MARKETING';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
+    font-weight: 700;
     display:block;
     text-align:center;
 }
 .nut-image-text4::after{
     content: 'CUSTOM SOLUTIONS';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 
 .how-image-text1::after{
     content: 'Book your hours';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 .how-image-text2::after{
     content: 'Dedicated Team';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 .how-image-text3::after{
     content: 'Flexible Pricing';
-    font-size: 1.5em;
+    font-size: 1.2em;
+     font-weight: 700;
     display:block;
     text-align:center;
 }
 .how-image-text4::after{
     content: 'Real-Time Project Tech';
-    font-size: 1.5em;
-    display:block;
-    text-align:center;
+    font-size: 1.2em;
+    font-weight: 700;
+   display:block;
+   text-align:center;
 }
 .task-commerce{
     text-align: center;
@@ -109,6 +117,18 @@
     transition: transform .2s; /* Animation */
 }
 
+.tasks h2{
+    font-size:2.5em !important;
+}
+.tasks p{
+    font-size:20px !important;
+}
+.tasks img{
+    width: 100%;
+    height: 180px;
+    max-width: 480px;
+    padding: 10px;
+}
 .anim:hover{
     transform: scale(1.2);
 }
@@ -135,7 +155,14 @@
         background: #fffaf0;
         padding: 20px;
     }
-    
+    .modal-right{
+        margin: 0;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: "";
+        width:100%;
+      }
 }
 @media (min-width:481px)  { 
     h1{
@@ -159,6 +186,14 @@
         background: #fffaf0;
         padding: 20px;
     }
+    .modal-right{
+      margin: 0;
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: "";
+      width:100%;
+    }
 }
 @media (min-width:641px)  { 
     h1{
@@ -181,6 +216,14 @@
         margin: 0 auto;
         background: #fffaf0;
         padding: 20px;
+    }
+    .modal-right{
+        margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:100%;
     }
 }
 
@@ -206,6 +249,14 @@
         background: #fffaf0;
         padding: 20px;
     }
+    .modal-right{
+        margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:100%;
+    }
 }
 
 @media (min-width:1025px) { 
@@ -230,4 +281,134 @@
         background: #fffaf0;
         padding: 20px;
     }
+    .modal-right{
+        margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:100%;
+    }
 }
+.ant-modal-body .tasks img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    padding: 10px;
+}
+.ant-modal-body .row {
+    position: relative;
+}
+
+/*animation*/
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand
+ * ----------------------------------------
+ */
+ .focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  
+/**
+ * ----------------------------------------
+ * animation color-change-2x
+ * ----------------------------------------
+ */
+ .color-change-2x {
+	-webkit-animation: color-change-2x 2s linear alternate both;
+	        animation: color-change-2x 2s linear alternate both;
+}
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background:#fce779;
+    }
+    100% {
+        background: #fffaf0;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background:#fce779;
+    }
+    100% {
+      background: #fffaf0;
+    }
+  }
+  
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+ .fade-in-bottom-1 {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+.fade-in-bottom-2 {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.3s both;
+}
+.fade-in-bottom-3{
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.6s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.6s both;
+}
+.fade-in-bottom-4 {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.9s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.9s both;
+}
+ @-webkit-keyframes fade-in-bottom {
+     
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

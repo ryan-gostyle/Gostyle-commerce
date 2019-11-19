@@ -92,7 +92,7 @@ h3{
     text-align: left;
   }
   .hero h1{
-    font-size: 67px;
+    font-size: 50px;
     text-align: left;
 }
 /* .hero .row{
@@ -115,8 +115,13 @@ h3{
     text-align: left;
   }
   .hero h1{
-    font-size: 67px;
+    font-size: 50px;
     text-align: left;
+    font-weight:700 !important;
+}
+.hero-col-1 h2{
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
 }
 /* .hero .row{
   background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Background-2.jpg);
@@ -180,4 +185,80 @@ img{
 }
 .slick-slider{
   overflow: hidden;
+}
+
+
+
+/*animation */
+
+ 
+/**
+ * ----------------------------------------
+ * animation slide-in-bck-center
+ * ----------------------------------------
+ */
+
+ .slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+ .fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
 }

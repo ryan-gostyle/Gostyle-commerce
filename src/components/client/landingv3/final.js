@@ -8,7 +8,7 @@ export default class Last extends Component {
     render() {
 
         return (
-            <Grid fluid className="last">
+            <Grid fluid className="last bg-pan-bottom">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={6}>
                         <h1 style={{textAlign:"center"}}>Lorem Ipsum</h1>

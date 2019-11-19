@@ -1,5 +1,6 @@
 .bookings{
     background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/sharvd.PNG');
+    background-size:cover;
 }
 .ant-tabs{
     border: 2px solid #000;
@@ -37,7 +38,7 @@
 .ant-tabs-nav-container{
     font-size:20px;
 }
-/* .ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active, .ant-btn{
+form .ant-btn:hover,form  .ant-btn:focus,form  .ant-btn:active,form  .ant-btn.active,form .ant-btn{
     width:70%;
     border-color: #fce779;
     background-color: #fce779;
@@ -46,7 +47,7 @@
     font-weight:600;
     min-height: 40px;
     border-radius: 5px;
-} */
+}
 .ant-checkbox-input:checked{
     background-color:#fce779;
 }
@@ -68,3 +69,42 @@
     border-color: #fce779;
     border-right-width: 5px !important;
 }
+
+/**
+ * ----------------------------------------
+ * animation kenburns-top-left
+ * ----------------------------------------
+ */
+ .kenburns-top-left {
+	-webkit-animation: kenburns-top-left 5s ease-out both;
+	        animation: kenburns-top-left 5s ease-out both;
+}
+ @-webkit-keyframes kenburns-top-left {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 16% 16%;
+              transform-origin: 16% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(-20px, -15px);
+              transform: scale(1.25) translate(-20px, -15px);
+      -webkit-transform-origin: top left;
+              transform-origin: top left;
+    }
+  }
+  @keyframes kenburns-top-left {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 16% 16%;
+              transform-origin: 16% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(-20px, -15px);
+              transform: scale(1.25) translate(-20px, -15px);
+      -webkit-transform-origin: top left;
+              transform-origin: top left;
+    }
+  }
+  

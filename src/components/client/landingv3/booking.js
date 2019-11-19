@@ -14,12 +14,12 @@ export default class Booking extends Component {
         return (
             <Grid fluid className="bookings">
                 <Row>
-                    <Col style={{padding:"50px"}} xs={12} md={12} lg={4} lgOffset={8}>
+                    <Col style={{padding:"25px"}} xs={12} md={12} lg={4} lgOffset={8}>
                             <Tabs style={{ backgroundColor: "white" }} defaultActiveKey="1" onChange={callback}>
-                                <TabPane tab="Book a Time" key="1">
+                                <TabPane tab="Book Side-by-Side" key="1">
                                     <WrappedRegistrationForm />
                                 </TabPane>
-                                <TabPane tab="Outside PH?" key="2">
+                                <TabPane tab="Book Remote" key="2">
                                     <WrappedRegistrationForm />
                                 </TabPane>
                             </Tabs>
