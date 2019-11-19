@@ -1,5 +1,14 @@
+@font-face {
+  font-family: proxima;
+  src: url('./Assets/FontsFree-Net-proxima_nova_reg-webfont.ttf');
+}
+@font-face {
+  font-family: proxima-bold;
+  src: url('./Assets/FontsFree-Net-Proxima-Nova-Black.otf');
+}
 .App {
   text-align: center;
+  font-family: proxima !important;
 }
 body{
   overflow-x:hidden;

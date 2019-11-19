@@ -11,7 +11,7 @@ export default class Last extends Component {
             <Grid fluid className="last bg-pan-bottom">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={6}>
-                        <h1 style={{textAlign:"center"}}>Lorem Ipsum</h1>
+                        <h1 style={{fontFamily:"proxima-bold",textAlign:"center"}}>Lorem Ipsum</h1>
                         <p style={{wordBreak:"break-word", overflowWrap:"break-word",textAlign:"center"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies enim semper euismod sagittis. Vivamus fringilla vulputate leo, sed posuere enim cursus eget.</p>
                         <Row center="xs">
                             <Col lg={4}>
