@@ -13,18 +13,6 @@ export default class Booking extends Component {
     render() {
         return (
             <Grid fluid className="bookings">
-<<<<<<< HEAD
-                <Row>
-                    <Col style={{padding:"25px"}} xs={12} md={12} lg={4} lgOffset={8}>
-                            <Tabs style={{ backgroundColor: "white" }} defaultActiveKey="1" onChange={callback}>
-                                <TabPane tab="Side by side in our office" key="1">
-                                    <WrappedRegistrationForm />
-                                </TabPane>
-                                <TabPane tab="Working Remotely" key="2">
-                                    <WrappedRegistrationForm />
-                                </TabPane>
-                            </Tabs>
-=======
                 <Row top="xs" center="xs">
                     <Col style={{ padding: "25px" }} xs={12} md={6} lg={4}  >
                         <Card>
@@ -41,7 +29,6 @@ export default class Booking extends Component {
                                 <WrappedRegistrationForm />
                             </TabPane>
                         </Tabs>
->>>>>>> 59125fa4a3a180342131d9501aa058ab9fdf133b
                     </Col>
                 </Row>
             </Grid>

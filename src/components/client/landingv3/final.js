@@ -23,7 +23,7 @@ export default class Last extends Component {
                         </Row>
                     </Col>
                     <Col xs={12} md={6}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{paddingBottom:"0px"}} />
+                        <img alt="no image1" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{paddingBottom:"0px"}} />
                     </Col>
                 </Row>
             </Grid >

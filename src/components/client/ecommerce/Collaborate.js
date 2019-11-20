@@ -8,7 +8,7 @@ export default class Collaborate extends Component {
             <Grid fluid className="collaborate">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={6} lg={6}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ta.vin.png" />
+                        <img alt="no ta.vin" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ta.vin.png" />
                     </Col>
                     <Col xs={12} md={6} lg={6}>
                         <h3 style={{ fontFamily: "proxima-bold", textAlign: "center" }}><span className="dedicated">CASE STUDYL Ta.Vin Moodboard</span> </h3>

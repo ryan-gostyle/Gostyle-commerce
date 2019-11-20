@@ -13,13 +13,13 @@ export default class Solutions extends Component {
                     <Col xs={12} md={12} lg={6}>
                         <Row center="xs" middle="xs">
                             <Col lg={6}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/salesforce.png" />
+                                <img alt="no salesforce" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/salesforce.png" />
                             </Col>
                             <Col lg={6}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/magento.png" />
+                                <img alt="no magento" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/magento.png" />
                             </Col>
                             <Col lg={12}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/shopify.png" />
+                                <img alt="no shopify" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/shopify.png" />
                             </Col>
                         </Row>
                     </Col>

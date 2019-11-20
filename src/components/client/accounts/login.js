@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {
     Form,
     Input,
-    Select,
     Button,
     Card,
     Icon
@@ -42,6 +41,7 @@ class Login extends Component {
                                     text: error.response.data[key],
                                     icon: 'error',
                                 });
+                                return false;
                             });
                             // currentComponent.setState({ status: "error", message: error.response.data })
                         } else {

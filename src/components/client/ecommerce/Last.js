@@ -11,7 +11,7 @@ export default class Lastcommerce extends Component {
             <Grid fluid className="last bg-pan-bottom">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={6}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
+                        <img alt="no portal" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
                     </Col>
                     <Col xs={12} md={6}>
                         <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Lorem Ipsum</h1>

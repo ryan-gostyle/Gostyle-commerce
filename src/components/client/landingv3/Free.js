@@ -11,7 +11,7 @@ export default class Free extends Component {
                         <h1 className="vibrate-1" style={{fontFamily:"proxima-bold",textAlign:"center"}}>Free 30 Min. Consulation</h1>
                     </Col>
                     <Col xs={12} md={12} style={{marginBottom:"40px"}} className="fade-in-bottom">
-                        <a href="#" className="book-now">BOOK NOW</a>
+                        <a href="#book" className="book-now">BOOK NOW</a>
                     </Col>
                 </Row>
             </Grid>

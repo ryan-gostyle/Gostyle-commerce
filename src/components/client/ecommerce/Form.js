@@ -6,7 +6,6 @@ import {
   Select,
   Checkbox,
   Button,
-  AutoComplete,
   TimePicker,
   DatePicker,
 } from 'antd';
@@ -66,6 +65,7 @@ class TokenForm extends Component {
                     text: error.response.data[key][0],
                     icon: 'error',
                 });
+                return false;
               });
               // currentComponent.setState({ status: "error", message: error.response.data })
             } else {
@@ -165,7 +165,7 @@ class TokenForm extends Component {
             valuePropName: 'checked',
           })(
             <Checkbox>
-              I have read the <a href="">agreement</a>
+              I have read the <a href="#agree">agreement</a>
             </Checkbox>,
           )}
         </Form.Item>

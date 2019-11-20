@@ -9,7 +9,7 @@ export default class First extends Component {
             <Grid fluid className="hero">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={12}>
-                        <img src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/e1.png"} />
+                        <img alt="no e1" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/e1.png"} />
                     </Col>
                     <Col xs={12} md={12}>
                         <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>eCommerce Solutions</h1>

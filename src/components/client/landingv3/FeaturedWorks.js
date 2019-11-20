@@ -45,32 +45,28 @@ export default class FeaturedWorks extends Component {
             <Grid fluid className="featuredworks">
                 <Row>
                     <Col xs={12} md={12} >
-<<<<<<< HEAD
-                        <h2 className="focus-in-expand" style={{ textAlign: "center" }}>Featured Works</h2>
-=======
                         <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Featured Works</h2>
->>>>>>> 59125fa4a3a180342131d9501aa058ab9fdf133b
                     </Col>
                     <Col xs={12} md={12}>
                         <div className="flexcontainer container">
                             <Slider {...settings}>
                                 <div xs={12} md={4} className="featuredworks-1">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature10.png" />
+                                <img alt="no feature10" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature10.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-2">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature11.png" />
+                                <img alt="no feature11" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature11.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-3">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature6.png" />
+                                <img alt="no feature6" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature6.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-1">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature7.png" />
+                                <img alt="no feature7" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature7.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-2">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature8.png" />
+                                <img alt="no feature8" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature8.png" />
                                 </div>
                                 <div xs={12} md={4} className="featuredworks-3">
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature9.png" />
+                                <img alt="no feature9" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature9.png" />
                                 </div>
                             </Slider>
                         </div>

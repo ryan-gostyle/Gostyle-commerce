@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './Nutshell.css';
-import { Modal, Button } from 'antd';
-               import ScrollAnimation from 'react-animate-on-scroll';
+import { Modal } from 'antd';
 import './FeaturedWorks.css';
 export default class Nutshell extends Component {
     state = {
@@ -47,27 +46,27 @@ export default class Nutshell extends Component {
                                 <Row>
                                     <div xs={12} md={4} className="featuredworks-1 ">
                                         <div className="item anim fade-in-bottom-1 ">
-                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" onClick={() => this.setModalVisibleA(true)} />
+                                            <img alt="no ecommerce-0.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" onClick={() => this.setModalVisibleA(true)} />
                                             <p>ECOMMERCE SOLUTIONS</p>
                                         </div>
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-2 ">
                                         <div className="item anim fade-in-bottom-2">
-                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/website+design+and+development.png" onClick={() => this.setModalVisibleB(true)} />
+                                            <img alt="no website+design+and+development.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/website+design+and+development.png" onClick={() => this.setModalVisibleB(true)} />
                                             <p>WEBSITE DESIGN & DEVELOPMENT</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-3 ">
                                         <div className="item  anim fade-in-bottom-3">
-                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" onClick={() => this.setModalVisibleC(true)} />
+                                            <img alt="no inbound+marketing.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" onClick={() => this.setModalVisibleC(true)} />
                                             <p>INBOUND MARKETING</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-1 ">
                                         <div className="item anim fade-in-bottom-4">
-                                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/custom+solutions.png" onClick={() => this.setModalVisibleD(true)} />
+                                            <img alt="no custom+solutions.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/custom+solutions.png" onClick={() => this.setModalVisibleD(true)} />
                                             <p>CUSTOM SOLUTIONS</p>
                                         </div>
                                     </div>
@@ -85,7 +84,7 @@ export default class Nutshell extends Component {
                     <Grid fluid className="featuredworks tasks color-change-2x">
                         <Row style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecomsolution.png" />
+                                <img alt="no ecomsolution.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecomsolution.png" />
                             </Col>
                             <Col xs={12} md={7} >
                                 <div className="modal-right">
@@ -104,7 +103,7 @@ export default class Nutshell extends Component {
                     <Grid fluid className="featuredworks tasks color-change-2x">
                         <Row style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/web.png" />
+                                <img alt="no web.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/web.png" />
                             </Col>
                             <Col xs={12} md={7} >
                                 <div className="modal-right">
@@ -123,7 +122,7 @@ export default class Nutshell extends Component {
                     <Grid fluid className="featuredworks tasks color-change-2x">
                         <Row style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound.png" />
+                                <img alt="no inbound.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound.png" />
                             </Col>
                             <Col xs={12} md={7} >
                                 <div className="modal-right">
@@ -143,7 +142,7 @@ export default class Nutshell extends Component {
                     <Grid fluid className="featuredworks tasks color-change-2x">
                         <Row style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
-                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
+                            <img alt="no mobile.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
                             </Col>
                             <Col xs={12} md={7} >
                                 <div className="modal-right">

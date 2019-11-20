@@ -15,7 +15,7 @@ export default class Section2 extends Component {
                         <Button size="large" className="btns">GET STARTED</Button>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-                        <img src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/how1.png"} />
+                        <img alt="no how1" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/how1.png"} />
                     </Col>
                 </Row>
             </Grid>

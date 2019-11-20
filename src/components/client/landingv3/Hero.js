@@ -26,24 +26,24 @@ export default class First extends Component {
                             <h2>THROUGH REAL-TIME</h2>
                             <h2>COLLABORATION</h2>
                             <br />
-                            <a href="#" className="we-work">LEARN MORE</a>
-                            <a href="#" className="book-now">BOOK NOW</a>
+                            <a href="#learn" className="we-work">LEARN MORE</a>
+                            <a href="#book" className="book-now">BOOK NOW</a>
                         </div>
                     </Col>
                     <Col xs={12} md={7} lg={6}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/no-bg.gif" />
+                        <img alt="no no-bg.gif" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/no-bg.gif" />
                         <Row top="xs" center="xs" style={{marginRight:"20px"}}>
                             <Col xs={12} md={3}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/zoom.png" />
+                                <img alt="no zoom" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/zoom.png" />
                             </Col>
                             <Col xs={12} md={3}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/loom.png" />
+                                <img alt="no loom" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/loom.png" />
                             </Col>
                             <Col xs={12} md={3}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/slack.png" />
+                                <img alt="no slack" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/slack.png" />
                             </Col>
                             <Col xs={12} md={3}>
-                                <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/toggle.png" />
+                                <img alt="no toggle" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/toggle.png" />
                             </Col>
                         </Row>
                     </Col>

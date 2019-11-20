@@ -16,7 +16,7 @@ export default class Section3 extends Component {
                         <br/>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-                        <img src={'https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature2.png'} />
+                        <img alt="no feature21" src={'https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/feature2.png'} />
                     </Col>
                 </Row>
             </Grid>
