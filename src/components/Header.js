@@ -20,7 +20,7 @@ const Header1 = (props) => {
     <div>
       <Navbar color="light" light expand="lg">
         <NavbarToggler onClick={toggle} />
-        <NavbarBrand href="/">GOSTYLE COMMERCE</NavbarBrand>
+        <NavbarBrand href="/">GOSTYLE STUDIO</NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem>

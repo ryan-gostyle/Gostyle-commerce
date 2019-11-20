@@ -12,12 +12,11 @@ function callback(key) {
 export default class Booking extends Component {
     render() {
         return (
-            <Grid fluid className="bookings">
+            <Grid id="booking" fluid className="bookings">
                 <Row top="xs" center="xs">
                     <Col style={{ padding: "25px" }} xs={12} md={6} lg={4}  >
                         <Card>
-                            <h2>Work Collaborate Remotely or Side by side in our office.</h2>
-                            <h2>The choice is yours!</h2>
+                            <h2>Collaborate remotely or work side by side with us!</h2>
                         </Card>
                     </Col>
                     <Col style={{ padding: "25px" }} xs={12} md={12} lgOffset={2} lg={4}>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './Nutshell.css';
-import { Modal } from 'antd';
+import { Modal, Button } from 'antd';
 import './FeaturedWorks.css';
 export default class Nutshell extends Component {
     state = {
@@ -35,10 +35,10 @@ export default class Nutshell extends Component {
     render() {
         return (
             <div>
-                <Grid fluid className="featuredworks tasks color-change-2x">
+                <Grid id="nutshell" fluid className="featuredworks tasks color-change-2x">
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
-                            <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>What we do in a nutshell</h2>
+                            <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>What we do in a nutshell</h2>
                             <p className="sub-title focus-in-expand" style={{ textAlign: "center" }}>We build digital solutions by bridging the gap between creativity and strategy</p>
                         </Col>
                         <Col xs={12} md={12}>
@@ -75,14 +75,15 @@ export default class Nutshell extends Component {
                         </Col>
                     </Row>
                 </Grid>
-  
+
+                {/* ECOMMERCE SOLUTIONS MODAL */}
                 <Modal
                     visible={this.state.visibleA}
                     onCancel={this.handleCancel}
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row style={{ overflow: 'hidden' }}>
+                        <Row middle="xs" center="xs" style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
                                 <img alt="no ecomsolution.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecomsolution.png" />
                             </Col>
@@ -90,18 +91,22 @@ export default class Nutshell extends Component {
                                 <div className="modal-right">
                                     <h2 style={{ textAlign: "center" }}>Ecommerce Solutions</h2>
                                     <p style={{ textAlign: "justify" }}>We provide you with your own eCommerce websiteand an all-in-one dashboard to manage your zilingo, lazada, shoppee and zalora! Let us set you up for your success with seamless and optimized eCommerce solutions for your brand! </p>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleA: false })}>Book Now</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/ecommercesolution" onClick={e => this.setState({ visibleA: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>
                     </Grid>
                 </Modal>
+
+                {/* WEBSITE AND DEVELOPMENT MODAL */}
                 <Modal
                     visible={this.state.visibleB}
                     onCancel={this.handleCancel}
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row style={{ overflow: 'hidden' }}>
+                        <Row style={{ overflow: 'hidden' }} center="xs" middle="xs">
                             <Col xs={12} md={5} >
                                 <img alt="no web.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/web.png" />
                             </Col>
@@ -109,18 +114,22 @@ export default class Nutshell extends Component {
                                 <div className="modal-right">
                                     <h2 style={{ textAlign: "center" }}>Website Design & Website Development </h2>
                                     <p style={{ textAlign: "justify" }}>Never underestimate the winning combination  of a clear  creative direction partnered with the right technology! Work with our ui/ux designers and developers  to <b>bring your vision to life!</b></p>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleB: false })}>Book Now</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/websitedevelopment" onClick={e => this.setState({ visibleB: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>
                     </Grid>
                 </Modal>
+                
+                {/* INBOUND MARKETING MODAL */}
                 <Modal
                     visible={this.state.visibleC}
                     onCancel={this.handleCancel}
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row style={{ overflow: 'hidden' }}>
+                        <Row middle="xs" center="xs" style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
                                 <img alt="no inbound.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound.png" />
                             </Col>
@@ -128,26 +137,32 @@ export default class Nutshell extends Component {
                                 <div className="modal-right">
                                     <h2 style={{ textAlign: "center" }}>Inbound Marketing </h2>
                                     <p style={{ textAlign: "justify" }}>We provide you with your own eCommerce website and an all-in-one dashboard to manage your zilingo, lazada, shoppee and zalora! Let us set you up for your success with seamless and optimized eCommerce solutions for your brand!  </p>
-
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleC: false })}>Book Now</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/inboundmarketing" onClick={e => this.setState({ visibleC: false })}>Learn more</Button>
+                                
                                 </div>
                             </Col>
                         </Row>
                     </Grid>
                 </Modal>
+                
+                {/* CUSTOM APPLICATION */}
                 <Modal
                     visible={this.state.visibleD}
                     onCancel={this.handleCancel}
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row style={{ overflow: 'hidden' }}>
+                        <Row center="xs" middle="xs" style={{ overflow: 'hidden' }}>
                             <Col xs={12} md={5} >
-                            <img alt="no mobile.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
+                                <img alt="no mobile.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
                             </Col>
                             <Col xs={12} md={7} >
                                 <div className="modal-right">
-                                <h2 style={{ textAlign: "center" }}>Custom Applications & Mobile App Development </h2>
-                                <p style={{ textAlign: "justify" }}>Let us know your idea and let’s explore how we can make it happen. From booking platforms to Mobile Applications - Let’s execute your ideas and make it happen. </p>
+                                    <h2 style={{ textAlign: "center" }}>Custom Applications & Mobile App Development </h2>
+                                    <p style={{ textAlign: "justify" }}>Let us know your idea and let’s explore how we can make it happen. From booking platforms to Mobile Applications - Let’s execute your ideas and make it happen. </p>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleD: false })}>Book Now</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/customapplication" onClick={e => this.setState({ visibleD: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>
