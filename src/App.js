@@ -1,6 +1,8 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-import './App.css';
+import './App.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header1 from './components/Header'
 import Footer from './components/Footer'
@@ -25,6 +27,9 @@ import cookie from 'react-cookies';
 import HowWeWorks from './components/client/landingv3/HowWeWork';
 import Free from './components/client/landingv3/Free';
 import Lastcommerce from './components/client/ecommerce/Last';
+
+
+
 
 
 function App() {

@@ -46,7 +46,7 @@ export default class Clients extends Component {
                                 <img alt="no burlington" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/burligton.png" />
                             </div>
                             <div xs={12} md={4} className="featureworks-3">
-                                <img alt="no knit" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/knit.png" />
+                                <img alt="no knit" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/knitlogo.png" />
                             </div>
                             <div xs={12} md={4} className="featureworks-1">
                                 <img alt="no omo" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/omo.png" />
