@@ -83,7 +83,7 @@ export default class Nutshell extends Component {
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row middle="xs" center="xs" style={{ overflow: 'hidden' }}>
+                        <Row middle="xs" center="xs" style={{ overflow: 'hidden',fontFamily:"proxima" }}>
                             <Col xs={12} md={5} >
                                 <img alt="no ecomsolution.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecomsolution.png" />
                             </Col>
@@ -106,7 +106,7 @@ export default class Nutshell extends Component {
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row style={{ overflow: 'hidden' }} center="xs" middle="xs">
+                        <Row style={{ overflow: 'hidden',fontFamily:"proxima" }} center="xs" middle="xs">
                             <Col xs={12} md={5} >
                                 <img alt="no web.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/web.png" />
                             </Col>
@@ -129,7 +129,7 @@ export default class Nutshell extends Component {
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row middle="xs" center="xs" style={{ overflow: 'hidden' }}>
+                        <Row middle="xs" center="xs" style={{ overflow: 'hidden',fontFamily:"proxima" }}>
                             <Col xs={12} md={5} >
                                 <img alt="no inbound.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound.png" />
                             </Col>
@@ -153,7 +153,7 @@ export default class Nutshell extends Component {
                     width={1200}
                 >
                     <Grid fluid className="featuredworks tasks color-change-2x">
-                        <Row center="xs" middle="xs" style={{ overflow: 'hidden' }}>
+                        <Row center="xs" middle="xs" style={{ overflow: 'hidden',fontFamily:"proxima" }}>
                             <Col xs={12} md={5} >
                                 <img alt="no mobile.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
                             </Col>
