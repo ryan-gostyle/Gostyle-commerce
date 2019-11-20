@@ -12,7 +12,7 @@ export default class Free extends Component {
             <Grid>
                 <Row middle="xs" center="xs" className="free">
                     <Col xs={12} md={12} style={{marginTop:"40px"}}>
-                        <h1 className="vibrate-1" style={{fontFamily:"proxima-bold",textAlign:"center"}}>Free 30 Min. Consulation</h1>
+                        <h1 className="vibrate-1" style={{fontFamily:"proxima-bold",textAlign:"center"}}>Free 30 Min. Consultation</h1>
                     </Col>
                     <Col xs={12} md={12} lg={2} style={{marginBottom:"40px"}} className="fade-in-bottom">
                        <Anchor affix={false}>
