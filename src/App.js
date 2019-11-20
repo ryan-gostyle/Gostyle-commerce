@@ -78,13 +78,15 @@ function Commerce() {
       <FeaturedWorks />
       <Collaborate />
       <Wework />
-      <div>
+      <div style={{margin:"20px 0"}}>
         <br/>
         <h1 style={{textAlign:"center",fontFamily:"proxima-bold"}}>Custom Solution? Let's talk about it</h1>
         <br/>
       </div>
-      <Cooperation />
-      <Lastcommerce />
+      <Booking />
+      {/* <Cooperation /> */}
+      {/* <Lastcommerce /> */}
+      <Last />
       <Footer />
     </div>
   )

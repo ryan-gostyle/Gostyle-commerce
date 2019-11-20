@@ -5,7 +5,7 @@ export default class Solutions extends Component {
     render() {
         return (
             <Grid fluid className="solutions">
-                <Row middle="xs" center="xs">
+                <Row middle="xs" center="xs" className="container solutions-commerce">
                     <Col xs={12} md={12} lg={6}>
                         <h1 style={{ fontFamily: "proxima-bold" }}>Custom Shopify Solutions</h1>
                         <p>Want to keep tabs on your project?Check in on the progress,access your invoices, view documents, book new appointments and more on the Gostyle App </p>

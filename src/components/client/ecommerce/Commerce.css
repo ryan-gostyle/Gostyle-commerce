@@ -1,0 +1,9 @@
+.commerce-hero{
+    margin:0 auto;
+}
+.ant-anchor-wrapper {
+    margin-left: 10px;
+    padding-left: 10px;
+    overflow: auto;
+    background-color: #fff;
+}

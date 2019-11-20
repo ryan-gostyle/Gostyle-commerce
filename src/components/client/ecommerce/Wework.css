@@ -4,6 +4,11 @@
     display:block;
     margin:0 auto;
 }
+.wework a{
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
 .wework{
     min-height: 450px;
     margin-top:80px;

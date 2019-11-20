@@ -23,15 +23,21 @@
     font-size:20px !important;
 }
 
-
-.featuredworks-1,.featuredworks-2,.featuredworks-3{
-    /* padding: 5px 20px; */
-    max-width: 250px;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 15px;
+.item {
+    float: none !important;
+    margin:0 auto;
+    margin-right:auto !important;
+    margin-top:10px;
 }
 
+/* .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
+    box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
+    cursor: pointer;
+} */
 
 @media (min-width:320px)  { 
     .featuredworks p{
@@ -39,13 +45,13 @@
         font-weight: 700;
         padding:10px 0;
     }
-    .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
-    {
-        transform: scale(1);
-        -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        cursor: pointer;
+    .featuredworks-1,.featuredworks-2,.featuredworks-3{
+        /* padding: 5px 20px; */
+        /* max-width: auto; */
+        width:100%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 15px;
     }
 
 }
@@ -55,13 +61,13 @@
         font-weight: 600;
         padding: 10px 0;
     }
-    .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
-    {
-        transform: scale(1);
-        -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        cursor: pointer;
+    .featuredworks-1,.featuredworks-2,.featuredworks-3{
+        /* padding: 5px 20px; */
+        /* max-width: auto; */
+        width:100%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 15px;
     }
 
 }
@@ -71,14 +77,15 @@
         font-weight: 700;
         padding:10px 5px;
     }
-    .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
-    {
-        transform: scale(1);
-        -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        cursor: pointer;
+    .featuredworks-1,.featuredworks-2,.featuredworks-3{
+        /* padding: 5px 20px; */
+        /* max-width: auto; */
+        width:50%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 15px;
     }
+    
 }
 
 @media (min-width:961px)  { 
@@ -87,13 +94,13 @@
         font-weight: 700;
         padding:10px 10px;
     }
-    .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
-    {
-        transform: scale(1.1);
-        -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        cursor: pointer;
+    .featuredworks-1,.featuredworks-2,.featuredworks-3{
+        /* padding: 5px 20px; */
+        /* max-width: auto; */
+        width:25%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 15px;
     }
 }
 
@@ -103,13 +110,13 @@
         font-weight: 700;
         padding:10px 5px;
     }
-    .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
-    {
-        transform: scale(1.1);
-        -webkit-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        -moz-box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        box-shadow: 0px 2px 5px 3px rgba(252,231,121,.5);
-        cursor: pointer;
+    .featuredworks-1,.featuredworks-2,.featuredworks-3{
+        /* padding: 5px 20px; */
+        /* max-width: auto; */
+        width:25%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 15px;
     }
 }
 .featuredworks p{
