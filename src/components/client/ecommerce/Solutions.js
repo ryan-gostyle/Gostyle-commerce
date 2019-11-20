@@ -4,7 +4,7 @@ import './Solutions.css';
 export default class Solutions extends Component {
     render() {
         return (
-            <Grid fluid className="solutions">
+            <Grid fluid id="solution" className="solutions">
                 <Row middle="xs" center="xs" className="container solutions-commerce">
                     <Col xs={12} md={12} lg={6}>
                         <h1 style={{ fontFamily: "proxima-bold" }}>Custom Shopify Solutions</h1>

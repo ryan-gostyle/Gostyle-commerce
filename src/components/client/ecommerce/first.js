@@ -21,7 +21,7 @@ export default class First extends Component {
                         <br />   
                         <div>
                             <Anchor affix={false} style={{ display: "inline-block" }}>
-                                <Link href="#nutshell" className="we-work" title="LEARN MORE" />
+                                <Link href="#solution" className="we-work" title="LEARN MORE" />
                             </Anchor>
                             <Anchor affix={false} style={{ display: "inline-block" }}>
                                 <Link href="#booking" className="book-now" title="Book Now" />

@@ -8,7 +8,7 @@ import Header1 from './components/Header'
 import Footer from './components/Footer'
 import Solutions from './components/client/ecommerce/Solutions'
 import Collaborate from './components/client/ecommerce/Collaborate'
-import Cooperation from './components/client/ecommerce/Cooperation'
+// import Cooperation from './components/client/ecommerce/Cooperation'
 import Wework from './components/client/ecommerce/Wework'
 import Hero from './components/client/landingv3/Hero'
 import Nutshell from './components/client/landingv3/Nutshell'
@@ -26,7 +26,7 @@ import login from './components/client/accounts/login';
 import cookie from 'react-cookies';
 import HowWeWorks from './components/client/landingv3/HowWeWork';
 import Free from './components/client/landingv3/Free';
-import Lastcommerce from './components/client/ecommerce/Last';
+// import Lastcommerce from './components/client/ecommerce/Last';
 
 
 

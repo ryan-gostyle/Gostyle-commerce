@@ -184,6 +184,10 @@ h3{
   border-radius: 10px; 
   margin-top: 0px !important;
 }
+.ant-anchor-wrapper {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
 .we-work{
   background-color:#fce779; 
   border-radius: 10px;
