@@ -2,6 +2,10 @@
     background-image: url('https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/sharvd.PNG');
     background-size:cover;
 }
+.ant-card-bordered {
+    border: 2px solid #000;
+}
+
 .ant-tabs{
     border: 2px solid #000;
 }

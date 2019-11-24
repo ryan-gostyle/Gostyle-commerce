@@ -6,7 +6,12 @@
     width: 100%;
     z-index: 10;
 }
-
+.mx-auto {
+    margin-left: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: proxima-bold;
+}
 
 @media (min-width: 320px){
     .login,.login:hover{
@@ -27,6 +32,12 @@
         font-weight: 900 !important;
         line-height: inherit;
         white-space: nowrap;
+    }
+    .right-menu{
+        float:right;
+        position: relative;
+        display:block;
+        right:auto;
     }
 }
 @media (min-width: 468px){
@@ -49,6 +60,12 @@
         line-height: inherit;
         white-space: nowrap;
     }
+    .right-menu{
+        float:right;
+        position: relative;
+        display:block;
+        right:auto;
+    }
 }
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -56,17 +73,13 @@
         padding-left: 1rem;
     }
     .login,.login:hover{
-        float: right;
         margin: 30px 0;
-        position: absolute;
-        right: 5px;
         background:#fce779;
         border-radius: 7px;
         padding: 2px 50px !important;
         border: 2px solid #000;
     }
     .navbar-brand {
-        max-width: 100px;
         display: inline-block;
         padding-top: 0.3125rem;
         padding-bottom: 0.3125rem;
@@ -76,20 +89,23 @@
         line-height: inherit;
         white-space: nowrap;
     }
+    .right-menu{
+        float:right;
+        position: absolute;
+        display:inline-flex;
+        right:20px;
+    }
     }
     @media (min-width: 1028px){
         .login,.login:hover{
-            float: right;
             margin: 30px 0;
-            position: absolute;
-            right: 20px;
             background:#fce779;
             border-radius: 7px;
             padding: 2px 50px !important;
             border: 2px solid #000;
         }
         .navbar-brand {
-            max-width: 100px;
+
             display: inline-block;
             padding-top: 0.3125rem;
             padding-bottom: 0.3125rem;
@@ -98,6 +114,12 @@
             font-weight: 900 !important;
             line-height: inherit;
             white-space: nowrap;
+        }
+        .right-menu{
+            float:right;
+            position: absolute;
+            display:inline-flex;
+            right:20px;
         }
     }
 .nav-link{

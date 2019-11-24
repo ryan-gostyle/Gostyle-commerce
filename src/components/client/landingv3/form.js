@@ -136,11 +136,12 @@ class TokenForm extends Component {
           {getFieldDecorator('package', {
             rules: [{ required: true, message: 'Field is required' }],
           })(
-            <Select placeholder="Package" >
+            <Select placeholder="Services" >
               <Option value=""> </Option>
-              <Option value="Package A">Package A </Option>
-              <Option value="Package B">Package B</Option>
-              <Option value="Package C"> Package C</Option>
+              <Option value="eCommerce Solutions">eCommerce Solutions</Option>
+              <Option value="Website Design and Development">Website Design and Development</Option>
+              <Option value="Inbound Marketing">Inbound Marketing</Option>
+              <Option value="Custom Solutions">Custom Solutions</Option>
             </Select>
           )}
         </Form.Item>

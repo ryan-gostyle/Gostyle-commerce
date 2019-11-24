@@ -5,7 +5,7 @@ import './clients.css';
 export default class Clients extends Component {
     render() {
         return (
-            <Grid fluid className="featureworks clients">
+            <Grid fluid className="featureworks clients" id="clients">
                 <Row style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} >
                         <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Notable Clients around the globe!</h2>
@@ -59,6 +59,36 @@ export default class Clients extends Component {
                             </div>
                             <div xs={12} md={4} lg={2} className="featureworks-1">
                                 <img alt="no payandgo" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/payandgo.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-2">
+                                <img alt="no docspark" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/docspark.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-3">
+                                <img alt="no elmntl" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/elmntl.jpg" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-1">
+                                <img alt="no mano" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mano.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-2">
+                                <img alt="no mariaswim" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mariaswim.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-3">
+                                <img alt="no rakk" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/rakk.jpg" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-1">
+                                <img alt="no skinfinity" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/skinfinity.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-2">
+                                <img alt="no snoe   " src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/snoe.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-3">
+                                <img alt="no specterpro" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/specterpro.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-1">
+                                <img alt="no stylegenie" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/stylegenie.png" />
+                            </div>
+                            <div xs={12} md={4} lg={2} className="featureworks-2">
+                                <img alt="no tavin" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/tavin.jpg" />
                             </div>
                         </Row>
                     </Col>
