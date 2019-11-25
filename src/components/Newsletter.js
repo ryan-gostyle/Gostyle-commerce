@@ -109,7 +109,7 @@ class Newsletters extends Component {
             ],
           })(<Input placeholder='Email' />)}
         </Form.Item>
-        <Form.Item>
+        <Form.Item style={{textAlign:"center"}}>
           <Button type="primary" htmlType="submit" style={{borderRadius:25,margin: "15px 5px"}}>
             Subscribe
               </Button>

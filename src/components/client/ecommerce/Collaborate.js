@@ -17,7 +17,7 @@ export default class Collaborate extends Component {
                         <br />
                         <div>
                             <Anchor affix={false} style={{ display: "inline-block" }}>
-                                <Link href="#solution" className="we-work" title="LEARN MORE" />
+                                <Link href="#solution" className="we-work" title="Learn More" />
                             </Anchor>
                             <Anchor affix={false} style={{ display: "inline-block" }}>
                                 <Link href="#booking" className="book-now" title="Book Now" />
