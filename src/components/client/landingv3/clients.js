@@ -8,7 +8,7 @@ export default class Clients extends Component {
             <Grid fluid className="featureworks clients" id="clients">
                 <Row style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} >
-                        <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Notable Clients around the globe!</h2>
+                        <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Notable Clients Around The Globe!</h2>
                     </Col>
                     <Col xs={12} md={12}>
                         <Row middle="xs" center="xs" className="slide-in-bck-center"> 
@@ -70,7 +70,7 @@ export default class Clients extends Component {
                                 <img alt="no mano" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mano.png" />
                             </div>
                             <div xs={12} md={4} lg={2} className="featureworks-2">
-                                <img alt="no mariaswim" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mariaswim.png" />
+                                <img alt="no mariaswim" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/marias.png" />
                             </div>
                             <div xs={12} md={4} lg={2} className="featureworks-3">
                                 <img alt="no rakk" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/rakk.jpg" />
