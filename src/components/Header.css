@@ -9,6 +9,11 @@
 .mx-auto {
     margin-left: 0 !important;
 }
+
+.navbar-brand img {
+    width: 130px;
+    height: auto;
+}
 .navbar-expand-lg .navbar-nav .nav-link{
     font-family: proxima-bold;
 }
