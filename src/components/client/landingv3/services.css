@@ -110,11 +110,21 @@
 }
 .last p{
     text-align: center;
+    font-size:24px;
 }
 .last .ant-btn{
     border-radius: 25px;
 }
-
+.final a{
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.final .ant-anchor-wrapper{
+    background:transparent;
+    margin-left: 10px !important;
+    padding-left: 10px  !important;
+    overflow: auto;
+}
 /**
  * ----------------------------------------
  * animation bg-pan-bottom

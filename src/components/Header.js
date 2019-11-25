@@ -7,7 +7,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from 'reactstrap';
 import cookie from 'react-cookies';
 
@@ -24,26 +28,50 @@ const Header1 = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem>
-              <NavLink href="/how-we-work"><b>How We Work</b></NavLink>
+              <NavLink href="/how-we-work">How We Work</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#clients"><b>Our Clients</b></NavLink>
+              <NavLink href="/#clients">Our Clients</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about-us"><b>About Us</b></NavLink>
+              <NavLink href="/about-us">About Us</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/our-services"><b>Our Services</b></NavLink>
-            </NavItem>
-            <NavItem>
-              {cookie.load('token') !== undefined &&
-                <NavLink href="/logout" className="login btn">logout</NavLink>
-              }
-              {
-                cookie.load('token') === undefined &&
-                <NavLink href="/login" className="login btn">Login</NavLink>
-              }
-            </NavItem>
+            {/* <NavItem>
+              <NavLink href="/our-services">Our services</NavLink>
+            </NavItem> */}
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Our Services
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <NavLink href="/commerce">Ecommerce Solutions</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="/our-services">Inbound Marketing</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="/our-services">Website Design & Development</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="/our-services">Custom Solutions</NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <div className="right-menu">
+              <NavItem>
+                {cookie.load('token') !== undefined &&
+                  <NavLink href="/logout" className="login btn">Logout</NavLink>
+                }
+                {
+                  cookie.load('token') === undefined &&
+                  <NavLink href="/login" className="login btn">Login</NavLink>
+                }
+              </NavItem>
+              <NavItem>
+                <NavLink href="#booking" className="login btn">Book Now</NavLink>
+              </NavItem>
+            </div>
           </Nav>
         </Collapse>
       </Navbar>

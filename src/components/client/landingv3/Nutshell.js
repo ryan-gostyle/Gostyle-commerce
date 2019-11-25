@@ -38,8 +38,8 @@ export default class Nutshell extends Component {
                 <Grid id="nutshell" fluid className="featuredworks tasks color-change-2x">
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
-                            <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>What we do in a nutshell</h2>
-                            <p className="sub-title focus-in-expand" style={{ textAlign: "center" }}>We build digital solutions by bridging the gap between creativity and strategy</p>
+                            <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>What We Do (in a nutshell)</h2>
+                            <p className="sub-title focus-in-expand" style={{ textAlign: "center" }}>We Build Digital Solutions by Bridging the Gap Between Creativity and Strategy</p>
                         </Col>
                         <Col xs={12} md={12}>
                             <div className="">
@@ -47,27 +47,27 @@ export default class Nutshell extends Component {
                                     <div xs={12} md={4} className="featuredworks-1 ">
                                         <div className="item anim fade-in-bottom-1 ">
                                             <img alt="no ecommerce-0.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" onClick={() => this.setModalVisibleA(true)} />
-                                            <p>ECOMMERCE SOLUTIONS</p>
+                                            <p className="proxima-bold">ECOMMERCE SOLUTIONS</p>
                                         </div>
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-2 ">
                                         <div className="item anim fade-in-bottom-2">
                                             <img alt="no website+design+and+development.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/website+design+and+development.png" onClick={() => this.setModalVisibleB(true)} />
-                                            <p>WEBSITE DESIGN & DEVELOPMENT</p>
+                                            <p className="proxima-bold">WEBSITE DESIGN & DEVELOPMENT</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-3 ">
                                         <div className="item  anim fade-in-bottom-3">
                                             <img alt="no inbound+marketing.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" onClick={() => this.setModalVisibleC(true)} />
-                                            <p>INBOUND MARKETING</p>
+                                            <p className="proxima-bold">INBOUND MARKETING</p>
                                         </div>
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-1 ">
                                         <div className="item anim fade-in-bottom-4">
                                             <img alt="no custom+solutions.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/custom+solutions.png" onClick={() => this.setModalVisibleD(true)} />
-                                            <p>CUSTOM SOLUTIONS</p>
+                                            <p className="proxima-bold">CUSTOM SOLUTIONS</p>
                                         </div>
                                     </div>
                                 </Row>
@@ -92,7 +92,7 @@ export default class Nutshell extends Component {
                                     <h2 style={{ textAlign: "center" }}>Ecommerce Solutions</h2>
                                     <p style={{ textAlign: "justify" }}>We provide you with your own eCommerce websiteand an all-in-one dashboard to manage your zilingo, lazada, shoppee and zalora! Let us set you up for your success with seamless and optimized eCommerce solutions for your brand! </p>
                                     <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleA: false })}>Book Now</Button>
-                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/ecommercesolution" onClick={e => this.setState({ visibleA: false })}>Learn more</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/commerce" onClick={e => this.setState({ visibleA: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>

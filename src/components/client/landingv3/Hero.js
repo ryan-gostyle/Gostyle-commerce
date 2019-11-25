@@ -36,7 +36,7 @@ export default class First extends Component {
                                 <Col xs={12} md={6} lg={4}>
                                     <br/>
                                     <Anchor affix={false}>
-                                        <Link href="#nutshell" className="we-work" title="LEARN MORE" />
+                                        <Link href="#nutshell" className="we-work" title="Learn More" />
                                     </Anchor>
                                 </Col>
                                 <Col xs={12} md={6} lg={4}>

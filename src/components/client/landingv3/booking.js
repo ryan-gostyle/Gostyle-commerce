@@ -16,7 +16,7 @@ export default class Booking extends Component {
                 <Row top="xs" center="xs">
                     <Col style={{ padding: "25px" }} xs={12} md={6} lg={4}  >
                         <Card>
-                            <h2>Collaborate remotely or work side by side with us!</h2>
+                            <h2 style={{fontFamily:"proxima-bold"}}>Book your Team and Collaborate Remotely or Work Side-by-Side With Us!</h2>
                         </Card>
                     </Col>
                     <Col style={{ padding: "25px" }} xs={12} md={12} lgOffset={2} lg={4}>
