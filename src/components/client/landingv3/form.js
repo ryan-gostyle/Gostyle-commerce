@@ -12,7 +12,6 @@ import {
 import Api from '../../../Api';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import Axios from 'axios';
 
 const MySwal = withReactContent(Swal)
 const { Option } = Select;
@@ -23,7 +22,6 @@ class TokenForm extends Component {
   state = {
     time: null,
     date: null,
-    timezones: [],
   }
   onChange = (time, timeString) => {
     this.setState({ time: timeString });
@@ -32,13 +30,6 @@ class TokenForm extends Component {
     // console.log(timeString);
     this.setState({ date: timeString });
   }
-
-  async componentDidMount() {
-
-    var timezone = await Axios.get('https://raw.githubusercontent.com/dmfilipenko/timezones.json/master/timezones.json');
-    this.setState({ timezones: timezone.data })
-  }
-
 
 
   handleSubmit = async e => {
@@ -59,7 +50,7 @@ class TokenForm extends Component {
           place: values.place,
           date: this.state.date,
           time: this.state.time,
-          timezone: values.timezone
+          timezone: "(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi"
         })
           .catch(function (error) {
             if (error.response) {
@@ -169,18 +160,6 @@ class TokenForm extends Component {
         <Form.Item>
           <DatePicker onChange={this.onChange1} defaultValue={moment('2015-01-01', dateFormat)} format={dateFormat} />
           <TimePicker use12Hours onChange={this.onChange} />
-        </Form.Item>
-        <Form.Item>
-        {getFieldDecorator('timezone', {
-            rules: [{ required: true, message: 'Please select a timezone!' }],
-          })( <Select placeholder="Select a timezone">
-          {
-            this.state.timezones.map((item, i) => {
-             return <Option value={item.value}>{item.text}</Option>
-            })
-          }
-        </Select>)}
-         
         </Form.Item>
         <Form.Item>
           {getFieldDecorator('agreement', {

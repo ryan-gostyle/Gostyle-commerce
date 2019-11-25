@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Tabs, Card } from 'antd';
 import './booking.css';
 import WrappedRegistrationForm from './form'
+import RemoteForm from './remoteform';
 const { TabPane } = Tabs;
 
 function callback(key) {
@@ -25,7 +26,7 @@ export default class Booking extends Component {
                                 <WrappedRegistrationForm />
                             </TabPane>
                             <TabPane tab="Book Remote" key="2">
-                                <WrappedRegistrationForm />
+                                <RemoteForm />
                             </TabPane>
                         </Tabs>
                     </Col>
