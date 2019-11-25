@@ -5,7 +5,7 @@ import './clients.css';
 export default class Clients extends Component {
     render() {
         return (
-            <Grid fluid className="featureworks clients">
+            <Grid id="clients" fluid className="featureworks clients">
                 <Row style={{ overflow: 'hidden' }}>
                     <Col xs={12} md={12} >
                         <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Notable Clients around the globe!</h2>

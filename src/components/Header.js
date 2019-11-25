@@ -20,20 +20,20 @@ const Header1 = (props) => {
     <div>
       <Navbar color="light" light expand="lg">
         <NavbarToggler onClick={toggle} />
-        <NavbarBrand href="/">GOSTYLE STUDIO</NavbarBrand>
+        <NavbarBrand href="/"><img alt="missing logo" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/gostylelogo.png"} /></NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem>
-              <NavLink href="/how-we-work">How we work</NavLink>
+              <NavLink href="/how-we-work"><b>How We Work</b></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/our-collaborations">Our collaborations</NavLink>
+              <NavLink href="#clients"><b>Our Clients</b></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about-us">About us</NavLink>
+              <NavLink href="/about-us"><b>About Us</b></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/our-services">Our services</NavLink>
+              <NavLink href="/our-services"><b>Our Services</b></NavLink>
             </NavItem>
             <NavItem>
               {cookie.load('token') !== undefined &&
