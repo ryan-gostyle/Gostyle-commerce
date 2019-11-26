@@ -123,12 +123,7 @@
 .tasks p{
     font-size:18px !important;
 }
-.tasks img{
-    width: auto;
-    height: 180px;
-    max-width: 480px;
-    padding: 10px;
-}
+
 .anim:hover{
     transform: scale(1.2);
 }
@@ -163,6 +158,12 @@
         transform: "";
         width:100%;
       }
+      .tasks img{
+        width: auto;
+        height: 150px;
+        max-width: 480px;
+        padding: 10px;
+    }
 }
 @media (min-width:481px)  { 
     h1{
@@ -194,6 +195,12 @@
       transform: "";
       width:100%;
     }
+    .tasks img{
+        width: auto;
+        height: 150px;
+        max-width: 480px;
+        padding: 10px;
+    }
 }
 @media (min-width:641px)  { 
     h1{
@@ -224,6 +231,12 @@
       left: 50%;
       transform: translate(-50%, -50%);
       width:100%;
+    }
+    .tasks img{
+        width: auto;
+        height: 180px;
+        max-width: 480px;
+        padding: 10px;
     }
 }
 
@@ -257,6 +270,12 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
+    .tasks img{
+        width: auto;
+        height: 180px;
+        max-width: 480px;
+        padding: 10px;
+    }
 }
 
 @media (min-width:1025px) { 
@@ -288,6 +307,12 @@
       left: 50%;
       transform: translate(-50%, -50%);
       width:100%;
+    }
+    .tasks img{
+        width: auto;
+        height: 180px;
+        max-width: 480px;
+        padding: 10px;
     }
 }
 .ant-modal-body .tasks img {

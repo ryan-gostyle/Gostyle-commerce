@@ -7,13 +7,54 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
-.clients h2{
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+  .clients img{
+    max-width: 80px;
+  } 
+  .clients h2{
+    font-weight:900!important;
+    font-size: 33px !important;
+}
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .clients img{
+    max-width: 80px;
+  }
+  .clients h2{
+    font-weight:900!important;
+    font-size: 33px !important;
+}
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .clients img{
+    max-width: 100px;
+  }
+  .clients h2{
+    font-weight:900!important;
+    font-size: 2.0em !important;
+}
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .clients img{
+    max-width: 120px;
+  }
+  .clients h2{
     font-weight:900!important;
     font-size: 2.5em !important;
 }
-
-
-
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .clients img{
+    max-width: 140px;
+  }
+  .clients h2{
+    font-weight:900!important;
+    font-size: 2.5em !important;
+}
+}
 /*animation*/
 /**
  * ----------------------------------------
