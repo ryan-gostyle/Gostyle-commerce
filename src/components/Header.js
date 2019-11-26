@@ -15,18 +15,21 @@ import {
 } from 'reactstrap';
 import cookie from 'react-cookies';
 
+
 const Header1 = (props) => {
   const [isOpen, setIsOpen] = useState(false);
+
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="light" light expand="lg">
+    <div >
+      <Navbar color="light" light expand="lg"> 
         <NavbarToggler onClick={toggle} />
         <NavbarBrand href="/"><img alt="missing logo" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/gostylelogo.png"} /></NavbarBrand>
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mx-auto" navbar>
+        <Collapse isOpen={isOpen} navbar >
+          <Nav className="mx-auto" navbar id={isOpen ? "mySidenav" : ""}  className={isOpen ? "sidenav" : ""}  style={{width: isOpen ? "100%" : "auto"}}>
+          <a href="#!" className="closebtn" onClick={toggle} >&times;</a>
             <NavItem>
               <NavLink href="/how-we-work">How We Work</NavLink>
             </NavItem>
