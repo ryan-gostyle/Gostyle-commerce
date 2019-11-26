@@ -6,9 +6,10 @@
     width: 100%;
     z-index: 10;
 }
-#fixed{
+.fixedheader{
     position: fixed;
 }
+
 .mx-auto {
     margin-left: 0 !important;
 }

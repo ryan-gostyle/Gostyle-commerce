@@ -26,6 +26,10 @@ import login from './components/client/accounts/login';
 import cookie from 'react-cookies';
 import HowWeWorks from './components/client/landingv3/HowWeWork';
 import Free from './components/client/landingv3/Free';
+import CSection1 from './components/client/custom/C_Section1';
+import CSection2 from './components/client/custom/C_Section2';
+import CSection4 from './components/client/custom/C_Section4';
+import CSection3 from './components/client/custom/C_Section3';
 // import Lastcommerce from './components/client/ecommerce/Last';
 
 
@@ -39,6 +43,7 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/commerce" component={Commerce} />
         <Route exact path="/how-we-work" component={HowWeWork} />
+        <Route exact path="/custom" component={Custom} />
         <Route exact path="/login" component={login} />
         <Route exact path="/logout" component={logout} />
       </Switch>
@@ -104,6 +109,20 @@ function HowWeWork() {
       <Footer />
     </div>
   )
+}
+
+function Custom() {
+  return(
+    <div>
+      <Header1 />
+      <CSection1/>
+      <CSection2/>
+      <CSection3/>
+      <CSection4/>
+      <Footer />
+    </div>
+  )
+  
 }
 
 export default App;
