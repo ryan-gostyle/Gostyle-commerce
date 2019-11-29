@@ -133,7 +133,7 @@ function ComingSoon() {
     <div className="App" style={{ overflow: "hidden" }}>
       {/* <Header1 /> */}
       <section style={{ background: "#ffb445", width: "100%", height: "100vh" }} className="coming-soon-placeholder">
-        <Grid container="true" className="show">
+        <Grid container="true" className="comingsoon-show">
           <div className="paint-position">
             <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon3.png" className="paint" alt="cloud" />
           </div>
@@ -143,9 +143,10 @@ function ComingSoon() {
             </div>
             <Col xs={12} md={6} className="under-construct">
               <div className="under-construction">
-                <h1 style={{ color: "#fce779" }}>Under</h1>
+                <h1 style={{ color: "#fce779",textShadow:"5px 2px #333"}}>Under</h1>
                 <h1> Construction</h1>
                 <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Contact Us</Button></a>
+                <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Return</Button></a>
               </div>
             </Col>
             <Col xs={12} md={6} className="show-chair" >
