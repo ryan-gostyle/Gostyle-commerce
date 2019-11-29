@@ -327,7 +327,7 @@ img{
   height:70%;
   background-repeat: no-repeat;
 }
-.show{
+.comingsoon-show{
   overflow: hidden;
   background: #fff;
   width: 90% !important;
@@ -350,12 +350,12 @@ img{
     box-shadow: 15px 4px 42px -11px rgba(231,166,26,1);
 
 }
-.show .row{
+.comingsoon-show .row{
   position: absolute;
   width: 100%;
   bottom: 0;
 }
-.show::after{
+.comingsoon-show::after{
   content: '';
     background-image: url(https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon3.png);
     width: 100%;
@@ -381,7 +381,7 @@ img{
     text-align: center;
   }
 
-  .show::after{
+  .comingsoon-show::after{
     display: none;
   }
 .cloud{
@@ -397,9 +397,7 @@ img{
   top: -3px;
   padding: 0;
 }
-/* .show-chair{
 
-} */
 /*animation */
 
  
