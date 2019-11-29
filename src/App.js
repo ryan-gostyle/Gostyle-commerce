@@ -1,4 +1,6 @@
 import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css'
 import "slick-carousel/slick/slick.css";
@@ -43,6 +45,7 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/commerce" component={Commerce} />
         <Route exact path="/how-we-work" component={HowWeWork} />
+        <Route exact path="/coming-soon" component={ComingSoon} />
         <Route exact path="/custom" component={Custom} />
         <Route exact path="/login" component={login} />
         <Route exact path="/logout" component={logout} />
@@ -64,8 +67,8 @@ function LandingPage() {
       <Nutshell />
       <FeaturedWorks />
       <Clients />
-      <HowWeWorks/>
-      <Free/>
+      <HowWeWorks />
+      <Free />
       <Booking />
       <Last />
       <Footer />
@@ -83,10 +86,10 @@ function Commerce() {
       <FeaturedWorks />
       <Collaborate />
       <Wework />
-      <div style={{margin:"20px 0"}}>
-        <br/>
-        <h1 style={{textAlign:"center",fontFamily:"proxima-bold"}}>Custom Solution? Let's talk about it</h1>
-        <br/>
+      <div style={{ margin: "20px 0" }}>
+        <br />
+        <h1 style={{ textAlign: "center", fontFamily: "proxima-bold" }}>Custom Solution? Let's talk about it</h1>
+        <br />
       </div>
       <Booking />
       {/* <Cooperation /> */}
@@ -112,17 +115,47 @@ function HowWeWork() {
 }
 
 function Custom() {
-  return(
+  return (
     <div>
       <Header1 />
-      <CSection1/>
-      <CSection2/>
-      <CSection3/>
-      <CSection4/>
+      <CSection1 />
+      <CSection2 />
+      <CSection3 />
+      <CSection4 />
       <Footer />
     </div>
   )
-  
+
+}
+
+function ComingSoon() {
+  return (
+    <div className="App" style={{ overflow: "hidden" }}>
+      {/* <Header1 /> */}
+      <section style={{ background: "#ffb445", width: "100%", height: "100vh" }} className="coming-soon-placeholder">
+        <Grid container="true" className="show">
+          <div className="paint-position">
+            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon3.png" className="paint" alt="cloud" />
+          </div>
+          <Row>
+            <div className="cloud-position">
+              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon2.png" className="cloud" alt="cloud" />
+            </div>
+            <Col xs={12} md={6} className="under-construct">
+              <div className="under-construction">
+                <h1 style={{ color: "#fce779" }}>Under</h1>
+                <h1> Construction</h1>
+                <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Contact Us</Button></a>
+              </div>
+            </Col>
+            <Col xs={12} md={6} className="show-chair" >
+              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon1.png" alt="paint" />
+            </Col>
+          </Row>
+        </Grid>
+      </section>
+    </div>
+  )
 }
 
 export default App;
