@@ -1,16 +1,9 @@
 
 .solutions{
-    background-color: #fffaf0;
+    background-color: #FAFAFAFA;
     margin:50px 0 0 0;
 }
 
-.solution-commerce{
-   
-
-    color: #fce779;
-    font-weight: 900 !important;
-    text-shadow: 2px 2px 2px #b2aa38d6;
-}
 .solutions-commerce{
     text-align: justify;
     padding:20px 0;

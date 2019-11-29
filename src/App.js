@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Header1 from './components/Header'
 import Footer from './components/Footer'
 import Solutions from './components/client/ecommerce/Solutions'
@@ -32,8 +32,11 @@ import CSection1 from './components/client/custom/C_Section1';
 import CSection2 from './components/client/custom/C_Section2';
 import CSection4 from './components/client/custom/C_Section4';
 import CSection3 from './components/client/custom/C_Section3';
+import Solutions1 from './components/client/ecommerce/Solution1';
+import Solutions2 from './components/client/ecommerce/Solution2';
+import CommcereFree from './components/client/ecommerce/Free';
+import Lastcommerce from './components/client/ecommerce/Last';
 // import Lastcommerce from './components/client/ecommerce/Last';
-
 
 
 
@@ -49,6 +52,7 @@ function App() {
         <Route exact path="/custom" component={Custom} />
         <Route exact path="/login" component={login} />
         <Route exact path="/logout" component={logout} />
+        <Route render={() => <Redirect to={{ pathname: "/coming-soon" }} />} />
       </Switch>
     </Router>
   );
@@ -83,18 +87,16 @@ function Commerce() {
       <Header1 />
       <First />
       <Solutions />
-      <FeaturedWorks />
       <Collaborate />
+      <Solutions1 />
+      <FeaturedWorks />
+      <Solutions2 />
       <Wework />
-      <div style={{ margin: "20px 0" }}>
-        <br />
-        <h1 style={{ textAlign: "center", fontFamily: "proxima-bold" }}>Custom Solution? Let's talk about it</h1>
-        <br />
-      </div>
+      <CommcereFree/>
       <Booking />
       {/* <Cooperation /> */}
-      {/* <Lastcommerce /> */}
-      <Last />
+      <Lastcommerce/>
+      {/* <Last /> */}
       <Footer />
     </div>
   )

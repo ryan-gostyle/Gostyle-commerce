@@ -1,33 +1,80 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Button } from 'antd';
-import "../landingv3/services.css";
-
+import { Anchor } from 'antd';
+import "./service.css";
+const { Link } = Anchor;
+var isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function () {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function () {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function () {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function () {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera());
+    }
+};
 
 export default class Lastcommerce extends Component {
     render() {
 
-        return (
-            <Grid fluid className="last bg-pan-bottom">
-                <Row middle="xs" center="xs">
-                    <Col xs={12} md={6}>
-                        <img alt="no portal" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Lorem Ipsum</h1>
-                        <p style={{ wordBreak: "break-word", overflowWrap: "break-word", textAlign: "center" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies enim semper euismod sagittis. Vivamus fringilla vulputate leo, sed posuere enim cursus eget.</p>
-                        <Row center="xs">
-                            <Col lg={4}>
-                                <Button className="btn">already signed up? login</Button>
-                            </Col>
-                            <Col lg={2}>
-                                <p>find out more</p>
-                            </Col>
-                        </Row>
-                    </Col>
+        if (!isMobile.any()) {
+            return (
+                <Grid fluid className="lastcommerce bg-pan-bottom final">
+                    <Row middle="xs" center="xs">
+                        <Col xs={12} md={6}>
+                            <img alt="no image1" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Hakuna Matata: Your Project, No Worries</h1>
+                            <p style={{ wordBreak: "break-word", overflowWrap: "break-word", textAlign: "center" }}>Say goodbye to the dreaded  back and forth emails. Track your progress, get real time updates,  request for revisions, invoicing - all in one portal.</p>
+                            <div>
+                                <Anchor affix={false} style={{ display: "inline-block" }}>
+                                    <Link href="#" className="we-work" title="Log-In" />
+                                </Anchor>
+                                <Anchor affix={false} style={{ display: "inline-block" }}>
+                                    <Link href="#booking" className="book-now" title="Get Your Account" />
+                                </Anchor>
+                            </div>
+                        </Col>
 
-                </Row>
-            </Grid >
-        )
+                    </Row>
+                </Grid >
+            )
+        }
+        else {
+            return (
+                <Grid fluid className="last bg-pan-bottom final">
+                    <Row middle="xs" center="xs">
+                        <Col xs={12} md={6}>
+                            <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Hakuna Matata: Your Project, No Worries</h1>
+                            <p style={{ wordBreak: "break-word", overflowWrap: "break-word", textAlign: "center" }}>Say goodbye to the dreaded  back and forth emails. Track your progress, get real time updates,  request for revisions, invoicing - all in one portal.</p>
+                            <div>
+                                <Anchor affix={false} style={{ display: "inline-block" }}>
+                                    <Link href="#" className="we-work" title="Log-In" />
+                                </Anchor>
+                                <Anchor affix={false} style={{ display: "inline-block" }}>
+                                    <Link href="#booking" className="book-now" title="Get Your Account" />
+                                </Anchor>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <img alt="no image1" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
+                        </Col>
+                    </Row>
+                </Grid >
+
+            )
+        }
+
     }
 }
