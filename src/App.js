@@ -36,6 +36,21 @@ import Solutions1 from './components/client/ecommerce/Solution1';
 import Solutions2 from './components/client/ecommerce/Solution2';
 import CommcereFree from './components/client/ecommerce/Free';
 import Lastcommerce from './components/client/ecommerce/Last';
+import WSection1 from './components/client/website/WSection1';
+import WSection2 from './components/client/website/WSection2';
+import WSection3 from './components/client/website/WSection3';
+import WSection4 from './components/client/website/WSection4';
+import WSection5 from './components/client/website/WSection5';
+import WSection6 from './components/client/website/WSection6';
+import WSection7 from './components/client/website/WSection7';
+import WSection8 from './components/client/website/WSection8';
+import ISection1 from './components/client/inbound/ISection1';
+import ISection2 from './components/client/inbound/ISection2';
+import ISection3 from './components/client/inbound/ISection3';
+import ISection4 from './components/client/inbound/ISection4';
+import ISection5 from './components/client/inbound/ISection5';
+import ISection6 from './components/client/inbound/ISection6';
+import ISection7 from './components/client/inbound/ISection7';
 // import Lastcommerce from './components/client/ecommerce/Last';
 
 
@@ -49,6 +64,8 @@ function App() {
         <Route exact path="/commerce" component={Commerce} />
         <Route exact path="/how-we-work" component={HowWeWork} />
         <Route exact path="/coming-soon" component={ComingSoon} />
+        <Route exact path="/website" component={Website} />
+        <Route exact path="/inbound" component={Inbound} />
         <Route exact path="/custom" component={Custom} />
         <Route exact path="/login" component={login} />
         <Route exact path="/logout" component={logout} />
@@ -92,10 +109,10 @@ function Commerce() {
       <FeaturedWorks />
       <Solutions2 />
       <Wework />
-      <CommcereFree/>
+      <CommcereFree />
       <Booking />
       {/* <Cooperation /> */}
-      <Lastcommerce/>
+      <Lastcommerce />
       {/* <Last /> */}
       <Footer />
     </div>
@@ -145,7 +162,7 @@ function ComingSoon() {
             </div>
             <Col xs={12} md={6} className="under-construct">
               <div className="under-construction">
-                <h1 style={{ color: "#fce779",textShadow:"5px 2px #333"}}>Under</h1>
+                <h1 style={{ color: "#fce779", textShadow: "5px 2px #333" }}>Under</h1>
                 <h1> Construction</h1>
                 <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Contact Us</Button></a>
                 <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Return</Button></a>
@@ -157,6 +174,40 @@ function ComingSoon() {
           </Row>
         </Grid>
       </section>
+    </div>
+  )
+}
+
+
+function Website() {
+  return (
+    <div>
+      <Header1/>
+      <WSection1 />
+      <WSection2/>
+      <WSection3/>
+      <WSection4/>
+      <WSection5/>
+      <WSection6/>
+      <WSection7/>
+      <WSection8/>
+      <Footer/>
+    </div>
+  )
+}
+
+function Inbound() {
+  return(
+    <div>
+      <Header1/>
+      <ISection1/>
+      <ISection2/>
+      <ISection3/>
+      <ISection4/>
+      <ISection5/>
+      <ISection6/>
+      <ISection7/>
+      <Footer/>
     </div>
   )
 }
