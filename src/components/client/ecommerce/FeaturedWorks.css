@@ -30,6 +30,10 @@
     margin-top:10px;
 }
 
+.showmore{
+    font-family: 'proxima-bold';
+}
+
 /* .tasks .featuredworks-1:hover,.tasks .featuredworks-2:hover,.tasks .featuredworks-3:hover
 {
     transform: scale(1.1);
