@@ -324,7 +324,18 @@
 .ant-modal-body .row {
     position: relative;
 }
-
+.ant-tree li{
+    white-space: normal;
+}
+.ant-tree li .ant-tree-node-content-wrapper{
+    height: auto;
+}
+span.ant-tree-iconEle.ant-tree-icon__docu {
+    display: none !important;
+}
+.ant-tree-node-content-wrapper .ant-tree-iconEle{
+    display: none !important;
+}
 /*animation*/
 
 /**

@@ -375,6 +375,7 @@ img{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index:100;
 }
 .under-construct h1, .under-construct button span{
     font-family: proxima-bold;

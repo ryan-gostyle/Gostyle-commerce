@@ -4,7 +4,6 @@ import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Typed from 'react-typed';
 import { Anchor } from 'antd';
-
 const { Link } = Anchor;
 
 export default class First extends Component {
