@@ -1,0 +1,24 @@
+#Isection4{
+    
+    padding: 0px;
+}
+.ant-collapse-header{
+    font-size: 4em;
+    font-family: 'proxima-bold';
+    text-decoration: underline;
+
+}
+.ant-collapse-borderless > .ant-collapse-item{
+    border-bottom: 0px !important;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+    display: none;
+}
+
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content{
+    background-color: #FAFAFA;
+}
+
+.howclickme{
+    font-family: "proxima-bold";
+}

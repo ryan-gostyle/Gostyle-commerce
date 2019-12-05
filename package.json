@@ -20,6 +20,7 @@
     "react-preload-image": "^1.0.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-show-more": "^2.0.0",
     "react-slick": "^0.25.2",
     "react-typed": "^1.2.0",
     "reactstrap": "^8.1.1",

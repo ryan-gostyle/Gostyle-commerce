@@ -4,7 +4,7 @@ import './Solutions.css';
 export default class Solutions1 extends Component {
     render() {
         return (
-            <Grid fluid id="solution" className="solutions">
+            <Grid fluid id="solution1" className="solutions">
                 <Row middle="xs" center="xs" className="container solutions-commerce">
                     <Col xs={12} md={12} lg={6}>
                         <h1 style={{ fontFamily: "proxima-bold" }}>Our Personal Favorite</h1>

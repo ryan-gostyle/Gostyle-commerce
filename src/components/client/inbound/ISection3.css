@@ -1,0 +1,12 @@
+#ineed{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-size: 8em !important;
+    font-family: "proxima-bold";
+    text-align: center;
+}
+#typing{
+    font-size: 4em !important;
+}

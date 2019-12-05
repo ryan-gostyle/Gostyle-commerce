@@ -1,0 +1,16 @@
+.featuredworks{
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.slick-dots li button:before{
+    font-size:20px !important;
+}
+
+.featuredworks-1,.featuredworks-2,.featuredworks-3{
+    /* padding: 5px 20px; */
+    max-width: 250px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
