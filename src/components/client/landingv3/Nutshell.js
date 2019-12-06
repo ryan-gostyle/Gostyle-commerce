@@ -115,7 +115,7 @@ export default class Nutshell extends Component {
                                     <h2 style={{ textAlign: "center" }}>Website Design & Website Development </h2>
                                     <p style={{ textAlign: "justify" }}>Never underestimate the winning combination  of a clear  creative direction partnered with the right technology! Work with our ui/ux designers and developers  to <b>bring your vision to life!</b></p>
                                     <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleB: false })}>Book Now</Button>
-                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/websitedevelopment" onClick={e => this.setState({ visibleB: false })}>Learn more</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/website" onClick={e => this.setState({ visibleB: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>
@@ -138,7 +138,7 @@ export default class Nutshell extends Component {
                                     <h2 style={{ textAlign: "center" }}>Inbound Marketing </h2>
                                     <p style={{ textAlign: "justify" }}>We provide you with your own eCommerce website and an all-in-one dashboard to manage your zilingo, lazada, shoppee and zalora! Let us set you up for your success with seamless and optimized eCommerce solutions for your brand!  </p>
                                     <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleC: false })}>Book Now</Button>
-                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/inboundmarketing" onClick={e => this.setState({ visibleC: false })}>Learn more</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/inbound" onClick={e => this.setState({ visibleC: false })}>Learn more</Button>
                                 
                                 </div>
                             </Col>

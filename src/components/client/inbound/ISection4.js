@@ -9,70 +9,70 @@ export default class ISection4 extends Component {
     render() {
         return (
             <div>
-                <Grid fluid id="Isection4" >
+                <Grid fluid id="Isection4" className="featuredworks tasks">
                     <Row center="xs" middle="xs">
-                        <Col lg={12}>
+                        <Col md={12} xs={12} lg={12}>
                             <Collapse bordered={false}>
                                 <Panel header="HOW? (CLICK ME!)" key="1">
                                     <div className="container">
                                         <Row center="xs" middle="xs">
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Facebook Ads</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Copywriting</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Graphic Design</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">eCommerce Strategy</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Research Analysis</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">B2B/B2C Lead Generation</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Email Marketing</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">App Marketing</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Social Media Management</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Instagram Ads</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">SEO</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Content Marketing</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Media Buying</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">LinkedIn Marketing</h4>
                                                 <br />
                                             </Col>
-                                            <Col xs={4} md={4} lg={3}>
+                                            <Col xs={12} md={12} lg={3}>
                                                 <h4 className="howclickme">Google Ads</h4>
                                                 <br />
                                             </Col>

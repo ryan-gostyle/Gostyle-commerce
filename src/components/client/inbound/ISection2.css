@@ -10,42 +10,9 @@
     padding:15px;
 }
 
-.image-text1,.image-text2,.image-text3,.image-text4{
-    width:100%;
-    height:150px;
-}
-.image-text1 img,.image-text2 img,.image-text3 img,.image-text4 img{
-    width: 100%;
-    height: 100%;
-    max-width: 480px;
-    padding: 10px;
-}
+
 .ant-modal-footer {
     display: none;
-}
-.image-text1::after{
-    content: 'ECOMMERCE SOLUTIONS';
-    font-size: 1.5em;
-    display:block;
-    text-align:center;
-}
-.image-text2::after{
-    content: 'WEBSITE DESIGN & DEVELOPMENT';
-    font-size: 1.5em;
-    display:block;
-    text-align:center;
-}
-.image-text3::after{
-    content: 'INBOUND MARKETING';
-    font-size: 1.5em;
-    display:block;
-    text-align:center;
-}
-.image-text4::after{
-    content: 'CUSTOM SOLUTIONS';
-    font-size: 1.5em;
-    display:block;
-    text-align:center;
 }
 
 .nut-image-text1::after{
@@ -159,8 +126,8 @@
         width:100%;
       }
       .tasks img{
-        width: auto;
-        height: 150px;
+        width: 100%;
+        height: 100%;
         max-width: 480px;
         padding: 10px;
     }
@@ -196,8 +163,8 @@
       width:100%;
     }
     .tasks img{
-        width: auto;
-        height: 150px;
+        width: 100%;
+        height: 100%;
         max-width: 480px;
         padding: 10px;
     }
@@ -233,8 +200,8 @@
       width:100%;
     }
     .tasks img{
-        width: auto;
-        height: 180px;
+        width: 100%;
+        height: 100%;
         max-width: 480px;
         padding: 10px;
     }
@@ -271,8 +238,8 @@
       width:100%;
     }
     .tasks img{
-        width: auto;
-        height: 180px;
+        width: 100%;
+        height: 100%;
         max-width: 480px;
         padding: 10px;
     }
@@ -290,7 +257,7 @@
     .tasks-img{
         text-align: center;
         width:25%;
-        display: inline-block;
+        display: inline-block;  
     }
     .tasks-img img{
         width: 80%;
@@ -309,8 +276,8 @@
       width:100%;
     }
     .tasks img{
-        width: auto;
-        height: 180px;
+        width: 100%;
+        height: 100%;
         max-width: 480px;
         padding: 10px;
     }

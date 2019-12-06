@@ -44,7 +44,7 @@ export default class WSection5 extends Component {
         return (
             <Grid fluid className="featuredworks">
                 <Row center="xs" middle="xs">
-                    <Col xs={12} md={12}>
+                    <Col xs={12} md={12} lg={12}>
                         <div >
                             <Slider {...settings}>
                                 <div xs={12} md={4} className="featuredworks-1">
@@ -68,10 +68,10 @@ export default class WSection5 extends Component {
                             </Slider>
                         </div>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={5} lgOffset={1}>
                         <h1 style={{ fontFamily: "proxima-bold" }} >Choose You Package, or make your own - Inquire now!</h1>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={4}>
                         <p style={{ textAlign: "center", wordBreak: "break-word"}}>We cater to small, medium and enterprise businesses.
                         Flexible pricing that aligns with your business objective is the way to go -
                         Invest in Premium or Start Safe! Choose or Create your Package now!

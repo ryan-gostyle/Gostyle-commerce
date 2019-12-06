@@ -22,3 +22,10 @@
 .howclickme{
     font-family: "proxima-bold";
 }
+
+@media(max-width:700px){
+
+    .ant-collapse-header{
+        font-size: 2em;
+    }
+}

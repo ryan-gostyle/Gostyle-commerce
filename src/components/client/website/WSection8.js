@@ -29,7 +29,7 @@ export default class WSection8 extends Component {
 
         if (!isMobile.any()) {
             return (
-                <Grid fluid>
+                <Grid fluid className="last final">
                     <Row middle="xs" center="xs">
                         <Col xs={12} md={6}>
                             <img alt="no image1" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/portal.png" style={{ paddingBottom: "0px" }} />
@@ -37,14 +37,12 @@ export default class WSection8 extends Component {
                         <Col xs={12} md={6}>
                             <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Hakuna Matata: Your Project, No Worries</h1>
                             <p style={{ wordBreak: "break-word", overflowWrap: "break-word", textAlign: "center" }}>Say goodbye to the dreaded  back and forth emails. Track your progress, get real time updates,  request for revisions, invoicing - all in one portal.</p>
-                            <div>
-                                <Anchor affix={false} style={{ display: "inline-block" }}>
-                                    <Link href="#" className="we-work" title="Log-In" />
-                                </Anchor>
-                                <Anchor affix={false} style={{ display: "inline-block" }}>
-                                    <Link href="#booking" className="book-now" title="Get Your Account" />
-                                </Anchor>
-                            </div>
+                            <Anchor affix={false} style={{ display: "inline-block" }}>
+                                <Link href="#" className="we-work" title="Log-In" />
+                            </Anchor>
+                            <Anchor affix={false} style={{ display: "inline-block" }}>
+                                <Link href="#booking" className="book-now" title="Get Your Account" />
+                            </Anchor>
                         </Col>
 
                     </Row>
