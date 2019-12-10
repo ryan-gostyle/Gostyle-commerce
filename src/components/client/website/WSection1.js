@@ -30,7 +30,7 @@ export default class WSection1 extends Component {
                         </Row>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/websiteheader.png"/>
+                        <img alt="website header" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/websiteheader.png"/>
                     </Col>
                 </Row>
             </Grid>

@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
-import moment from 'moment';
 import {
   Form,
   Input,
   Select,
-  Checkbox,
   Button,
-  TimePicker,
-  DatePicker,
 } from 'antd';
 import Api from '../../../Api';
 import Swal from 'sweetalert2';
@@ -16,7 +12,6 @@ import withReactContent from 'sweetalert2-react-content';
 const MySwal = withReactContent(Swal)
 const { TextArea } = Input;
 const { Option } = Select;
-const dateFormat = 'YYYY-MM-DD';
 
 class TokenForm extends Component {
 

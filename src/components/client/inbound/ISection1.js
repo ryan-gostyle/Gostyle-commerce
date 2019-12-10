@@ -12,26 +12,30 @@ export default class ISection1 extends Component {
         return (
             <div>
                 <Grid fluid className="hero">
-                    <Row middle="xs" center="xs" style={{margin: "0 auto" }} className="container inbound-hero">
-                        <Col xs={12} md={12} lg={6}>
+                    <Row middle="xs" center="xs" style={{ margin: "0 auto" }} className="inbound-hero">
+                        <Col xs={12} md={12} lg={5}>
                             <h1 style={{ fontSize: "2em" }}>Our Secret sauce:</h1>
                             <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em" }}>We are Great Listeners!</h1>
                             <h3 style={{ fontFamily: "proxima" }}>We listen to your target audience so that you can communicate effectively and thus reaching your business objective</h3>
                             <br />
-                            <div style={{textAlign:"center"}}>
-                                <Anchor affix={false} style={{ display: "inline-block" }}>
-                                    <Link href="#solution" className="we-work" title="Learn More" />
-                                </Anchor>
-                                <Anchor affix={false} style={{ display: "inline-block" }}>
-                                    <Link href="#booking" className="book-now" title="Book Now" />
-                                </Anchor>
-                            </div>
+                            <Row middle="xs" center="xs">
+                                <Col xs={12} md={6} lg={4}>
+                                    <Anchor affix={false}>
+                                        <Link href="#nutshell" className="we-work" title="Learn More" />
+                                    </Anchor>
+                                </Col>
+                                <Col xs={12} md={6} lg={4}>
+                                    <Anchor affix={false}>
+                                        <Link href="#booking" className="book-now" title="Book Now" />
+                                    </Anchor>
+                                </Col>
+                            </Row>
                             {/* 
                         <Button style={{marginBottom:"20px"}} className="we-work"><a>LEARN MORE</a></Button>
                         <Button style={{marginLeft:"10px",marginBottom:"20px"}} className="book-now"><a>BOOK NOW</a></Button> */}
                         </Col>
                         <Col xs={12} md={12} lg={6}>
-                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inboundheader.png" />
+                            <img alt="inbound header" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inboundheader.png" />
                         </Col>
                     </Row>
                 </Grid>

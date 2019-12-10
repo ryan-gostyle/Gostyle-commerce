@@ -1,13 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Tabs } from 'antd';
 import './C_section3.css';
 import WrappedRegistrationForm  from './C_Form'
-const { TabPane } = Tabs;
-
-function callback(key) {
-  console.log(key);
-}
 
 export default class C_Section3 extends Component {
     render() {
