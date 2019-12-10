@@ -162,7 +162,7 @@ export default class Nutshell extends Component {
                                     <h2 style={{ textAlign: "center" }}>Custom Applications & Mobile App Development </h2>
                                     <p style={{ textAlign: "justify" }}>Let us know your idea and let’s explore how we can make it happen. From booking platforms to Mobile Applications - Let’s execute your ideas and make it happen. </p>
                                     <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="#booking" onClick={e => this.setState({ visibleD: false })}>Book Now</Button>
-                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/customapplication" onClick={e => this.setState({ visibleD: false })}>Learn more</Button>
+                                    <Button style={{textAlign:"center", backgroundColor:"#fce779", margin:"10px"}} href="/custom" onClick={e => this.setState({ visibleD: false })}>Learn more</Button>
                                 </div>
                             </Col>
                         </Row>

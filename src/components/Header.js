@@ -69,13 +69,13 @@ export default class Header1 extends Component {
                     <NavLink href="/commerce">Ecommerce Solutions</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/our-services">Inbound Marketing</NavLink>
+                    <NavLink href="/inbound">Inbound Marketing</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/our-services">Website Design & Development</NavLink>
+                    <NavLink href="/website">Website Design & Development</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/our-services">Custom Solutions</NavLink>
+                    <NavLink href="/custom">Custom Solutions</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
