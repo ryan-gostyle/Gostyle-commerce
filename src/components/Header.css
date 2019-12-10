@@ -8,8 +8,11 @@
 }
 .fixedheader{
     position: fixed;
+    top:0;
 }
-
+.nav-item{
+    text-align:center;
+}
 .mx-auto {
     margin-left: 0 !important;
 }

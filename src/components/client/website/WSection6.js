@@ -22,7 +22,9 @@ export default class WSection6 extends Component {
                         <Col xs={12} md={12} lg={3}>
                             <h2 style={{ textAlign: "center" }}>Growth & Maintenance Package</h2>
                             <br />
-                            <Button className="book-now">Try</Button>
+                            <Anchor affix={false}>
+                                <Link href="#booking" className="book-now" title="Try" />
+                            </Anchor>
                         </Col>
                     </Row>
                 </Grid>

@@ -6,7 +6,7 @@ export default class ISection3 extends Component {
     render() {
         return (
             <div>
-                <Grid fluid >
+                <Grid className="">
                     <Row center="xs" middle="xs">
                         <Col lg={6}>
                             <h1 id="ineed">I NEED</h1>

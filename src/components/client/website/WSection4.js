@@ -5,7 +5,7 @@ export default class WSection4 extends Component {
     render() {
         return (
             <Grid fluid>
-                <Row className="collaborate" style={{backgroundColor:"#FAFAFA"}} middle="xs" center="xs">
+                <Row className="collaborate-wsection4" style={{backgroundColor:"#FAFAFA"}} middle="xs" center="xs">
                     <Col xs={12} md={12} lg={6}>
                         <img alt="no image1 logo" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Drupal_logo.png"} />
                     </Col>

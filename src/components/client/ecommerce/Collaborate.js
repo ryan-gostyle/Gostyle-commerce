@@ -17,10 +17,10 @@ export default class Collaborate extends Component {
                         <br />
                         <div>
                             <Row middle="xs" center="xs">
-                                <Col xs={12} md={3} lg={3}>
+                                <Col xs={6} md={3} lg={3}>
                                     <a href="//www.ta.vin" style={{paddingTop:'15px', paddingBottom:"15px"}}  className="book-now">www.Ta.vin</a>
                                 </Col>
-                                <Col xs={12} md={3} lg={3}>
+                                <Col xs={6} md={3} lg={3}>
                                     <Anchor affix={false} >
                                         <Link href="#solution1" className="book-now" title="Read More" />
                                     </Anchor>

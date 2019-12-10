@@ -14,6 +14,7 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 
 const MySwal = withReactContent(Swal)
+const { TextArea } = Input;
 const { Option } = Select;
 const dateFormat = 'YYYY-MM-DD';
 
@@ -59,11 +60,11 @@ class TokenForm extends Component {
               console.log(error.response.data);
               console.log(error.response.status);
               console.log(error.response.headers);
-              Object.keys(error.response.data).map(function(key, index) {
-                  MySwal.fire({
-                    title: "Error",
-                    text: error.response.data[key][0],
-                    icon: 'error',
+              Object.keys(error.response.data).map(function (key, index) {
+                MySwal.fire({
+                  title: "Error",
+                  text: error.response.data[key][0],
+                  icon: 'error',
                 });
                 return false;
               });
@@ -89,6 +90,7 @@ class TokenForm extends Component {
 
 
   render() {
+
     const { getFieldDecorator } = this.props.form;
 
     const prefixSelector = getFieldDecorator('prefix', {
@@ -102,8 +104,30 @@ class TokenForm extends Component {
 
 
     return (
-      <Form onSubmit={this.handleSubmit}>
-        <Form.Item>
+      <Form onSubmit={this.handleSubmit} style={{background:"#000"}} >
+        <Form.Item className="col-xs-12 col-md-12 col-lg-12" style={{padding:0}}>
+          {getFieldDecorator('project', {
+            rules: [{ required: true, message: 'Field is required' }],
+          })(
+            <Select placeholder="Start A Project" >
+              <Option value=""> </Option>
+              <Option value="Package A">Package A </Option>
+              <Option value="Package B">Package B</Option>
+              <Option value="Package C"> Package C</Option>
+            </Select>
+          )}
+        </Form.Item>
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
+          {getFieldDecorator('fullname', {
+            rules: [{ required: true, message: 'Please input your full name!', whitespace: true }],
+          })(<Input placeholder='Full Name' />)}
+        </Form.Item>
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
+          {getFieldDecorator('brand', {
+            rules: [{ required: true, message: 'Please input your company name!', whitespace: true }],
+          })(<Input placeholder='Company or Organization' />)}
+        </Form.Item>
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
           {getFieldDecorator('email', {
             rules: [
               {
@@ -117,26 +141,21 @@ class TokenForm extends Component {
             ],
           })(<Input placeholder='Email' />)}
         </Form.Item>
-        <Form.Item>
-          {getFieldDecorator('fullname', {
-            rules: [{ required: true, message: 'Please input your full name!', whitespace: true }],
-          })(<Input placeholder='Full Name' />)}
-        </Form.Item>
-        <Form.Item>
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
           {getFieldDecorator('phone', {
             rules: [{ required: true, message: 'Please input your phone number!' }],
           })(<Input addonBefore={prefixSelector} style={{ width: '100%' }} placeholder="Phone Number" />)}
         </Form.Item>
-        <Form.Item>
-          {getFieldDecorator('brand', {
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
+          {getFieldDecorator('location', {
             rules: [{ required: true, message: 'Please input your company name!', whitespace: true }],
-          })(<Input placeholder='Brand/Company Name' />)}
+          })(<Input placeholder='Location' />)}
         </Form.Item>
-        <Form.Item>
-          {getFieldDecorator('package', {
+        <Form.Item className="col-xs-12 col-md-6 col-lg-6 d-inline-block" style={{padding:0}}>
+          {getFieldDecorator('about', {
             rules: [{ required: true, message: 'Field is required' }],
           })(
-            <Select placeholder="Package" >
+            <Select placeholder="How did you hear about us?" >
               <Option value=""> </Option>
               <Option value="Package A">Package A </Option>
               <Option value="Package B">Package B</Option>
@@ -144,35 +163,13 @@ class TokenForm extends Component {
             </Select>
           )}
         </Form.Item>
-        <b style={{ padding: 5 }}>select a place, time, date that suits you best </b>
-        <Form.Item>
-          {getFieldDecorator('place', {
-            rules: [{ required: true, message: 'Field is required' }],
-          })(
-            <Select placeholder="Place" >
-              <Option value=""> </Option>
-              <Option value="Sharvd">Sharvd Coworking Space</Option>
-            </Select>
-          )}
+        <Form.Item className="col-xs-12 col-md-12 col-lg-12 d-inline-block" style={{padding:0}}>
+          <TextArea rows={4} placeholder="Tell us a bit about your project, timeline, and budget" />
         </Form.Item>
-        <Form.Item>
-          <DatePicker onChange={this.onChange1} defaultValue={moment('2015-01-01', dateFormat)} format={dateFormat} />
-          <TimePicker use12Hours onChange={this.onChange} />
-        </Form.Item>
-
-        <Form.Item>
-          {getFieldDecorator('agreement', {
-            valuePropName: 'checked',
-          })(
-            <Checkbox>
-              I have read the <a href="#agree">agreement</a>
-            </Checkbox>,
-          )}
-        </Form.Item>
-        <Form.Item>
+        <Form.Item className="col-xs-4 col-md-4 col-lg-4 float-right" style={{padding:0,textAlign:"right"}}>
           <Button type="primary" htmlType="submit">
             BOOK
-              </Button>
+          </Button>
         </Form.Item>
       </Form>
     )

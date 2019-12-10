@@ -10,7 +10,7 @@
     margin:0 auto;
 }
 @media (min-width: 320px){
-h1 {
+.solutions h1 {
     font-size: 35px !important;
 }
 }

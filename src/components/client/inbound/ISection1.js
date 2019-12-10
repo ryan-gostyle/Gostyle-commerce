@@ -12,7 +12,7 @@ export default class ISection1 extends Component {
         return (
             <div>
                 <Grid fluid className="hero">
-                    <Row middle="xs" center="xs" style={{height:"100vh"}} className="container commerce-hero">
+                    <Row middle="xs" center="xs" style={{height:"100vh",margin:"0 auto"}} className="container inbound-hero">
                         <Col xs={12} md={12} lg={6} lgOffset={6}>
                             <h1 style={{ textAlign: "center", fontSize: "3em" }}>Marketing Driven by </h1>
                             <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em", textAlign: "center" }}>Purpose & Data</h1>

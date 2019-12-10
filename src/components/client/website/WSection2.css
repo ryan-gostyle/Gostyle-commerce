@@ -324,7 +324,16 @@
 .ant-modal-body .row {
     position: relative;
 }
-
+#cform3 form .ant-btn:hover,#cform3 form .ant-btn:focus,#cform3 form .ant-btn:active,#cform3 form .ant-btn.active,#cform3 form .ant-btn {
+    width: 100% !important;
+    border-color: #fce779;
+    background-color: #fce779;
+    height: auto;
+    font-size: 13px !important;
+    font-weight: 600;
+    min-height: 40px;
+    border-radius: 5px;
+}
 /*animation*/
 
 /**

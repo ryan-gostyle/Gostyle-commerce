@@ -3,10 +3,15 @@
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
-    font-size: 8em !important;
+    font-size: 6em !important;
     font-family: "proxima-bold";
     text-align: center;
 }
 #typing{
-    font-size: 4em !important;
+    font-size: 3em !important;
 }
+@media (min-width:320px)  { #typing{text-align:center;} }
+@media (min-width:481px)  {  #typing{text-align:center;}}
+@media (min-width:641px)  {  #typing{text-align:center;}}
+@media (min-width:961px)  {  #typing{text-align:left;} }
+@media (min-width:1025px) {  #typing{text-align:left;}}

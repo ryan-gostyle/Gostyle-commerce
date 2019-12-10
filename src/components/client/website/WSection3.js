@@ -4,10 +4,10 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 export default class WSection3 extends Component {
     render() {
         return (
-            <Grid fluid className="collaborate">
+            <Grid fluid className="collaborate" id="wsection3">
                 <Row middle="xs" center="xs">
                     <Col xs={12} md={12} lg={6}>
-                        <h1 style={{ fontFamily: "proxima-bold", textAlign:"center"}}>CMS Development Expertise: </h1>
+                        <h1 style={{ fontFamily: "proxima-bold", textAlign:"left",fontSize:35,maxWidth:530,margin:"0 auto"}}>CMS Development Expertise: </h1>
                         <p style={{ fontFamily: "proxima", textAlign:"left" }}>
                             We support your business with an advance approach
                             to utilise software in CMS development.

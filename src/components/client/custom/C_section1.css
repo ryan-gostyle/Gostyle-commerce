@@ -1,6 +1,7 @@
-.collaborate{
-    min-height: 450px;
+.collaborate-wsection4{
+    min-height: 380px;
     margin-top: 0px !important;
+
 }
 .collaborate a{
     padding: 7px 15px;
@@ -31,9 +32,13 @@
     margin-top: 25px;
     font-size: 17px;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 530px;
 }
-
+#wsection3{
+    min-height: 380px !important;
+    margin-top: 20px !important;
+    padding: 25px 15px;
+}
 
 @media (min-width:320px)  { 
  h3{
@@ -60,7 +65,7 @@
 @media (min-width:641px)  { 
     .collaborate img {
         width: 100%;
-        height: 380px;
+        height: auto;
         max-width: 600px;
         padding: 10px;
     }
@@ -69,7 +74,7 @@
 @media (min-width:961px)  { 
     .collaborate img {
         width: 100%;
-        height: 380px;
+        height:auto;
         max-width: 600px;
         padding: 10px;
     }

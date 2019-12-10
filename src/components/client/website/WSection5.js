@@ -68,8 +68,8 @@ export default class WSection5 extends Component {
                             </Slider>
                         </div>
                     </Col>
-                    <Col lg={5} lgOffset={1}>
-                        <h1 style={{ fontFamily: "proxima-bold" }} >Choose You Package, or make your own - Inquire now!</h1>
+                    <Col lg={7} >
+                        <h1 style={{ fontFamily: "proxima-bold",fontSize:35 }} >Choose You Package, <br/>or make your own - Inquire now!</h1>
                     </Col>
                     <Col lg={4}>
                         <p style={{ textAlign: "center", wordBreak: "break-word"}}>We cater to small, medium and enterprise businesses.

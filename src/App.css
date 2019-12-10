@@ -9,6 +9,9 @@
 *{
   font-family: proxima ;
 }
+a.ant-btn{
+  line-height:initial;
+}
 .slick-initialized .slick-slide{
   text-align:center;
 }
