@@ -15,7 +15,7 @@ export default class ISection7 extends Component {
         return (
             <Grid id="booking" fluid className="bookings">
                 <Row top="xs" center="xs">
-                    <Col style={{ padding: "25px" }} xs={12} md={6} lg={4}  >
+                    <Col style={{ padding: "25px" }} xs={12} md={6} lg={4} >
                         <Card>
                             <h2 style={{ fontFamily: "proxima-bold" }}>Book your Team and Collaborate Remotely or Work Side-by-Side With Us!</h2>
                         </Card>

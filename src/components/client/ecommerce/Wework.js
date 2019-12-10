@@ -20,37 +20,36 @@ export default class Wework extends Component {
                             <p style={{ textAlign: "center", wordBreak: "break-word" }}>From Premium Packages to Custom eCommerce Solutions, we tailor fit based on your business objectives.</p>
                         </Col>
                         <Col xs={12} md={12}>
-                            <div className="">
-                                <Row>
-                                    <div xs={12} md={4} className="featuredworks-1 " style={{ background: "#FAFAFAFA" }}>
-                                        <div className="item  fade-in-bottom-1 "  style={{width:"auto"}}>
-                                            <img alt="no ecom1.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" />
-                                            <p>ECOMMERCE Website Development</p>
-                                            <ul>
-                                                <li>3 Months FREE of Technical Support</li>
-                                                <li>Upload of up to unlimited products & unlimited categories</li>
-                                                <li>Setup of newsletter form with pop-up and/or top bar</li>
-                                                <li>Shipping settings</li>
-                                                <li>Redirect domain and point nameservers</li>
-                                                <li>Social media links and share links</li>
-                                                <li>Instagram widgets</li>
-                                                <li>Install Google Analytics tracking snippet</li>
-                                                <Tree showIcon switcherIcon={<Icon type="down" />}>
-                                                    <TreeNode title="See more" key="0-0" >
-                                                        <TreeNode title="Submission of sitemap to Google Search Console" key="0-0-0" selectable={false} />
-                                                        <TreeNode title="SEO: Search engine optimisation for up to 50 products, collection pages, and homepage" key="0-0-1" selectable={false} />
-                                                        <TreeNode title="Setup of shopping cart" key="0-0-2" selectable={false} />
-                                                        <TreeNode title="Setup of up to twelve (12) info pages & one contact form" key="0-0-3" selectable={false} />
-                                                        <TreeNode title="Custom responsive, desktop, mobile & tablet friendly web design" key="0-0-4" selectable={false} />
-                                                        <TreeNode title="Two (2) rounds of major revisions" key="0-0-5" selectable={false} />
-                                                        <TreeNode title="Setup of navigation, homepage and footer" key="0-0-6" selectable={false} />
-                                                        <TreeNode title="Access to eCommerce Partners" key="0-0-7" selectable={false} />
-                                                        <TreeNode title="Custom Website Application" key="0-0-8" selectable={false} />
+                            <Row>
+                                <Col xs={12} md={4} className="featuredworks-1 " style={{ background: "#FAFAFAFA" }}>
+                                    <div className="item  fade-in-bottom-1 " style={{ width: "auto" }}>
+                                        <img alt="no ecom1.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" />
+                                        <p>ECOMMERCE Website Development</p>
+                                        <ul>
+                                            <li>3 Months FREE of Technical Support</li>
+                                            <li>Upload of up to unlimited products & unlimited categories</li>
+                                            <li>Setup of newsletter form with pop-up and/or top bar</li>
+                                            <li>Shipping settings</li>
+                                            <li>Redirect domain and point nameservers</li>
+                                            <li>Social media links and share links</li>
+                                            <li>Instagram widgets</li>
+                                            <li>Install Google Analytics tracking snippet</li>
+                                            <Tree showIcon switcherIcon={<Icon type="down" />}>
+                                                <TreeNode title="See more" key="0-0" >
+                                                    <TreeNode title="Submission of sitemap to Google Search Console" key="0-0-0" selectable={false} />
+                                                    <TreeNode title="SEO: Search engine optimisation for up to 50 products, collection pages, and homepage" key="0-0-1" selectable={false} />
+                                                    <TreeNode title="Setup of shopping cart" key="0-0-2" selectable={false} />
+                                                    <TreeNode title="Setup of up to twelve (12) info pages & one contact form" key="0-0-3" selectable={false} />
+                                                    <TreeNode title="Custom responsive, desktop, mobile & tablet friendly web design" key="0-0-4" selectable={false} />
+                                                    <TreeNode title="Two (2) rounds of major revisions" key="0-0-5" selectable={false} />
+                                                    <TreeNode title="Setup of navigation, homepage and footer" key="0-0-6" selectable={false} />
+                                                    <TreeNode title="Access to eCommerce Partners" key="0-0-7" selectable={false} />
+                                                    <TreeNode title="Custom Website Application" key="0-0-8" selectable={false} />
 
-                                                    </TreeNode>
-                                                </Tree>
-                                            </ul>
-                                            {/* <ShowMore
+                                                </TreeNode>
+                                            </Tree>
+                                        </ul>
+                                        {/* <ShowMore
                                                 lines={3}
                                                 more='Show more'
                                                 less='Show less'
@@ -76,54 +75,53 @@ export default class Wework extends Component {
                                                     <li> Custom Website Application</li>
                                                 </ul>
                                             </ShowMore> */}
-                                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                                <Link href="#booking" className="book-now" title="Request Quote" />
-                                            </Anchor>
-                                        </div>
+                                        <Anchor affix={false} style={{ display: "inline-block" }}>
+                                            <Link href="#booking" className="book-now" title="Request Quote" />
+                                        </Anchor>
                                     </div>
-                                    <div xs={12} md={4} className="featuredworks-2 ">
-                                        <div className="item  fade-in-bottom-2 " style={{width:"auto"}}>
-                                            <img alt="no inbounmarketing" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" />
-                                            <p>ECOMMERCE Inbound Marketing</p>
-                                            {/* <ShowMore
+                                </Col>
+                                <Col xs={12} md={4} className="featuredworks-2 ">
+                                    <div className="item  fade-in-bottom-2 " style={{ width: "auto" }}>
+                                        <img alt="no inbounmarketing" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" />
+                                        <p>ECOMMERCE Inbound Marketing</p>
+                                        {/* <ShowMore
                                                 lines={3}
                                                 more='Show more'
                                                 less='Show less'
                                                 anchorClass='showmore'
                                             > */}
-                                            <ul>
-                                                <li>Dedicated Graphic Designer</li>
-                                                <li>Social Media Posts</li>
-                                                <li>Facebook Ads Optimization</li>
-                                                <li>Copywriting</li>
-                                                <li>Social Media Optimization</li>
-                                                <li>SEO: for up to 50 oriducts,collection,page, and homepage</li>
-                                                <li>Google Ads</li>
-                                                <li>Product Optimization</li>
-                                            </ul>
-                                            {/* </ShowMore> */}
-                                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                                <Link href="#booking" className="book-now" title="Request Quote" />
-                                            </Anchor>
-                                        </div>
-
+                                        <ul>
+                                            <li>Dedicated Graphic Designer</li>
+                                            <li>Social Media Posts</li>
+                                            <li>Facebook Ads Optimization</li>
+                                            <li>Copywriting</li>
+                                            <li>Social Media Optimization</li>
+                                            <li>SEO: for up to 50 products,collection,page, and homepage</li>
+                                            <li>Google Ads</li>
+                                            <li>Product Optimization</li>
+                                        </ul>
+                                        {/* </ShowMore> */}
+                                        <Anchor affix={false} style={{ display: "inline-block" }}>
+                                            <Link href="#booking" className="book-now" title="Request Quote" />
+                                        </Anchor>
                                     </div>
-                                    <div xs={12} md={4} className="featuredworks-3 " style={{ background: "#FAFAFAFA" }}>
-                                        <div className="item   fade-in-bottom-3"  style={{width:"auto"}}>
-                                            <img alt="no mobile" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
-                                            <p>ECOMMERCE Virtual Assistant</p>
-                                            <ul>
-                                                <li>Perfect for drop shippers</li>
-                                                <li>Product research</li>
-                                                <li>Product description writing</li>
-                                                <li>Image editing</li>
-                                                <li>Product listing and optimization</li>
-                                                <li>Managing inventory</li>
-                                                <li>Handling order processing</li>
-                                                <li>Assistance in returns and exchanges</li>
-                                                <li>Customer support</li>
-                                            </ul>
-                                            {/* <ShowMore
+                                </Col>
+                                <Col xs={12} md={4} className="featuredworks-3 " style={{ background: "#FAFAFAFA" }}>
+                                    <div className="item   fade-in-bottom-3" style={{ width: "auto" }}>
+                                        <img alt="no mobile" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
+                                        <p>ECOMMERCE Virtual Assistant</p>
+                                        <ul>
+                                            <li>Perfect for drop shippers</li>
+                                            <li>Product research</li>
+                                            <li>Product description writing</li>
+                                            <li>Image editing</li>
+                                            <li>Product listing and optimization</li>
+                                            <li>Managing inventory</li>
+                                            <li>Handling order processing</li>
+                                            <li>Assistance in returns and exchanges</li>
+                                            <li>Customer support</li>
+                                        </ul>
+                                        {/* <ShowMore
                                                 lines={3}
                                                 more='Show more'
                                                 less='Show less'
@@ -140,17 +138,16 @@ export default class Wework extends Component {
                                                     <li> Customer support</li>
                                                 </ul>
                                             </ShowMore> */}
-                                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                                <Link href="#booking" className="book-now" title="Request Quote" />
-                                            </Anchor>
-                                        </div>
-
+                                        <Anchor affix={false} style={{ display: "inline-block" }}>
+                                            <Link href="#booking" className="book-now" title="Request Quote" />
+                                        </Anchor>
                                     </div>
-                                    <div xs={12} md={4} className="featuredworks-1 ">
-                                        <div className="item  fade-in-bottom-4"  style={{width:"auto"}}>
-                                            <img alt="no multichannel" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/multichannel-management.png" />
-                                            <p>MultiChannel Management</p>
-                                            {/* <ul>
+                                </Col>
+                                <Col xs={12} md={4} className="featuredworks-1 ">
+                                    <div className="item  fade-in-bottom-4" style={{ width: "auto" }}>
+                                        <img alt="no multichannel" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/multichannel-management.png" />
+                                        <p>MultiChannel Management</p>
+                                        {/* <ul>
                                             <li>3 Months FREE of Technical Support</li>
                                                 <li>Upload of up to unlimited products & unlimited categories</li>
                                                 <li>Setup of newsletter form with pop-up and/or top bar</li>
@@ -174,24 +171,23 @@ export default class Wework extends Component {
                                                     </TreeNode>
                                                 </Tree>
                                             </ul> */}
-                                            <ul>
-                                                <li>eCommerce Website Full Package</li>
-                                                <li> All in one dashboard to manage your lazada, Shopee, website and Zilingo</li>
-                                            </ul>
-                                            {/* <ShowMore
+                                        <ul>
+                                            <li>eCommerce Website Full Package</li>
+                                            <li> All in one dashboard to manage your lazada, Shopee, website and Zilingo</li>
+                                        </ul>
+                                        {/* <ShowMore
                                                 lines={3}
                                                 more='Show more'
                                                 less='Show less'
                                                 anchorClass='showmore'>
                                                
                                             </ShowMore> */}
-                                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                                <Link href="#booking" className="book-now" title="Request Quote" />
-                                            </Anchor>
-                                        </div>
+                                        <Anchor affix={false} style={{ display: "inline-block" }}>
+                                            <Link href="#booking" className="book-now" title="Request Quote" />
+                                        </Anchor>
                                     </div>
-                                </Row>
-                            </div>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Grid>

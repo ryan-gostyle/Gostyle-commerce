@@ -17,14 +17,21 @@ export default class First extends Component {
                     <Col xs={12} md={12} lg={6}>
                         <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>We Work in Collaboration to Develop  Your Custom  ecommerce solution</h1>
                         <br />
-                        <div>
-                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                <Link href="#solution" className="we-work" title="Learn More" />
-                            </Anchor>
-                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                <Link href="#booking" className="book-now" title="Book Now" />
-                            </Anchor>
-                        </div>
+                        <Row center="xs" middle="xs">
+                            <Col xs={12} md={6} lg={4}>
+                                <br />
+                                <Anchor affix={false}>
+                                    <Link href="#nutshell" className="we-work" title="Learn More" />
+                                </Anchor>
+                            </Col>
+                            <Col xs={12} md={6} lg={4}>
+                                <br />
+
+                                <Anchor affix={false}>
+                                    <Link href="#booking" className="book-now" title="Book Now" />
+                                </Anchor>
+                            </Col>
+                        </Row>
                         {/* 
                         <Button style={{marginBottom:"20px"}} className="we-work"><a>LEARN MORE</a></Button>
                         <Button style={{marginLeft:"10px",marginBottom:"20px"}} className="book-now"><a>BOOK NOW</a></Button> */}

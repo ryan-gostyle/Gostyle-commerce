@@ -81,12 +81,16 @@ export default class ISection4 extends Component {
                                 </Panel>
                             </Collapse>
                         </Col>
-                        <Col lg={6}>
-                            <br/>
-                            <Anchor affix={false} style={{ display: "inline-block" }}>
-                                <Link href="#solution" className="we-work" title="Learn More" />
+                        <Col xs={12} md={6} lg={2}>
+                            <br />
+                            <Anchor affix={false}>
+                                <Link href="#nutshell" className="we-work" title="Learn More" />
                             </Anchor>
-                            <Anchor affix={false} style={{ display: "inline-block" }}>
+                        </Col>
+                        <Col xs={12} md={6} lg={2}>
+                            <br />
+
+                            <Anchor affix={false}>
                                 <Link href="#booking" className="book-now" title="Book Now" />
                             </Anchor>
                         </Col>

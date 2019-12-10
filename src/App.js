@@ -53,9 +53,6 @@ import ISection6 from './components/client/inbound/ISection6';
 import ISection7 from './components/client/inbound/ISection7';
 // import Lastcommerce from './components/client/ecommerce/Last';
 
-
-
-
 function App() {
   return (
     <Router>
@@ -147,38 +144,6 @@ function Custom() {
 
 }
 
-function ComingSoon() {
-  return (
-    <div className="App" style={{ overflow: "hidden" }}>
-      {/* <Header1 /> */}
-      <section style={{ background: "#ffb445", width: "100%", height: "100vh" }} className="coming-soon-placeholder">
-        <Grid container="true" className="comingsoon-show">
-          <div className="paint-position">
-            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon3.png" className="paint" alt="cloud" />
-          </div>
-          <Row>
-            <div className="cloud-position">
-              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon2.png" className="cloud" alt="cloud" />
-            </div>
-            <Col xs={12} md={6} className="under-construct">
-              <div className="under-construction">
-                <h1 style={{ color: "#fce779", textShadow: "5px 2px #333" }}>Under</h1>
-                <h1> Construction</h1>
-                <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Contact Us</Button></a>
-                <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Return</Button></a>
-              </div>
-            </Col>
-            <Col xs={12} md={6} className="show-chair" >
-              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon1.png" alt="paint" />
-            </Col>
-          </Row>
-        </Grid>
-      </section>
-    </div>
-  )
-}
-
-
 function Website() {
   return (
     <div>
@@ -208,6 +173,39 @@ function Inbound() {
       <ISection6/>
       <ISection7/>
       <Footer/>
+    </div>
+  )
+}
+
+
+//------------------------------------------------------------ COMING SOON ---------------------------------------------
+const ComingSoon =  ({ history }) => {
+  return (
+    <div className="App" style={{ overflow: "hidden" }}>
+      {/* <Header1 /> */}
+      <section style={{ background: "#ffb445", width: "100%", height: "100vh" }} className="coming-soon-placeholder">
+        <Grid container="true" className="comingsoon-show">
+          <div className="paint-position">
+            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon3.png" className="paint" alt="cloud" />
+          </div>
+          <Row>
+            <div className="cloud-position">
+              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon2.png" className="cloud" alt="cloud" />
+            </div>
+            <Col xs={12} md={6} className="under-construct">
+              <div className="under-construction">
+                <h1 style={{ color: "#fce779", textShadow: "5px 2px #333" }}>Under</h1>
+                <h1> Construction</h1>
+                <a href="mailto:suppport@gostyle.studio"><Button style={{ backgroundColor: "#fce779", borderRadius: 25 }}>Contact Us</Button></a>
+                <Button style={{ backgroundColor: "#fce779", borderRadius: 25 }} onClick={history.goBack}>Return</Button>
+              </div>
+            </Col>
+            <Col xs={12} md={6} className="show-chair" >
+              <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/comingsoon1.png" alt="paint" />
+            </Col>
+          </Row>
+        </Grid>
+      </section>
     </div>
   )
 }

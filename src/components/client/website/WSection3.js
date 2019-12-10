@@ -16,7 +16,7 @@ export default class WSection3 extends Component {
                         </p>
                     </Col>
                     <Col xs={12} md={12} lg={6} style={{maxWidth:660}}>
-                        <Row>
+                        <Row middle="xs" center="xs">
                             <Col xs={6} md={4} lg={4}>
                                 <img alt="no drupal logo" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Drupal_logo.png"} />
                             </Col>
