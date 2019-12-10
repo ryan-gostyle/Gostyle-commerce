@@ -15,16 +15,16 @@ export default class Solutions extends Component {
                     <Col xs={12} md={12} lg={12}>
                         <Row center="xs" middle="xs">
 
-                            <Col lg={3}>
+                            <Col xs={6} lg={3}>
                                 <img alt="no shopify" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/shopify.png" />
                             </Col>
-                            <Col lg={3}>
+                            <Col xs={6} lg={3}>
                                 <img alt="no woo" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/logo-woo.png" />
                             </Col>
-                            <Col lg={3}>
+                            <Col xs={6} lg={3}>
                                 <img alt="no salesforce" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/salesforce.png" />
                             </Col>
-                            <Col lg={3}>
+                            <Col xs={6} lg={3}>
                                 <img alt="no magento" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/magento.png" />
                             </Col>
 

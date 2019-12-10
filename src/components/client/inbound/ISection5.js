@@ -42,7 +42,7 @@ export default class ISection5 extends Component {
             ]
           };
         return (
-            <Grid fluid className="featuredworks">
+            <Grid fluid className="featuredworks" style={{marginTop:25}}>
                 <Row>
                     <Col xs={12} md={12} >
                         <h2 className="focus-in-expand" style={{fontFamily:"proxima-bold", textAlign: "center" }}>Featured Works</h2>

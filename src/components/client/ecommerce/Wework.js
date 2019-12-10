@@ -23,7 +23,7 @@ export default class Wework extends Component {
                             <div className="">
                                 <Row>
                                     <div xs={12} md={4} className="featuredworks-1 " style={{ background: "#FAFAFAFA" }}>
-                                        <div className="item  fade-in-bottom-1 ">
+                                        <div className="item  fade-in-bottom-1 "  style={{width:"auto"}}>
                                             <img alt="no ecom1.png" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/ecommerce-01.png" />
                                             <p>ECOMMERCE Website Development</p>
                                             <ul>
@@ -82,7 +82,7 @@ export default class Wework extends Component {
                                         </div>
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-2 ">
-                                        <div className="item  fade-in-bottom-2">
+                                        <div className="item  fade-in-bottom-2 " style={{width:"auto"}}>
                                             <img alt="no inbounmarketing" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inbound+marketing.png" />
                                             <p>ECOMMERCE Inbound Marketing</p>
                                             {/* <ShowMore
@@ -109,7 +109,7 @@ export default class Wework extends Component {
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-3 " style={{ background: "#FAFAFAFA" }}>
-                                        <div className="item   fade-in-bottom-3">
+                                        <div className="item   fade-in-bottom-3"  style={{width:"auto"}}>
                                             <img alt="no mobile" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/mobile.png" />
                                             <p>ECOMMERCE Virtual Assistant</p>
                                             <ul>
@@ -147,7 +147,7 @@ export default class Wework extends Component {
 
                                     </div>
                                     <div xs={12} md={4} className="featuredworks-1 ">
-                                        <div className="item  fade-in-bottom-4">
+                                        <div className="item  fade-in-bottom-4"  style={{width:"auto"}}>
                                             <img alt="no multichannel" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/multichannel-management.png" />
                                             <p>MultiChannel Management</p>
                                             {/* <ul>

@@ -1,83 +1,13 @@
 
-.tasks{
+.Isection2.tasks{
     min-height: 450px;
     margin-top:80px;
 
     padding:35px;
 }
-.tasks .row{
+.Isection2.tasks .row{
     margin:0 auto;
     padding:15px;
-}
-
-
-.ant-modal-footer {
-    display: none;
-}
-
-.nut-image-text1::after{
-    content: 'ECOMMERCE SOLUTIONS';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.nut-image-text2::after{
-    content: 'WEBSITE DESIGN & DEVELOPMENT';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.nut-image-text3::after{
-    content: 'INBOUND MARKETING';
-    font-size: 1.2em;
-     font-weight: 700;
-    font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.nut-image-text4::after{
-    content: 'CUSTOM SOLUTIONS';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-
-.how-image-text1::after{
-    content: 'Book your hours';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.how-image-text2::after{
-    content: 'Dedicated Team';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.how-image-text3::after{
-    content: 'Flexible Pricing';
-    font-size: 1.2em;
-     font-weight: 700;
-    display:block;
-    text-align:center;
-}
-.how-image-text4::after{
-    content: 'Real-Time Project Tech';
-    font-size: 1.2em;
-    font-weight: 700;
-   display:block;
-   text-align:center;
-}
-.task-commerce{
-    text-align: center;
-    color: #fffaf0;
-    font-weight: 900 !important;
-    text-shadow: 2px 2px 2px #b2aa38d6;
 }
 
 .anim{
@@ -96,20 +26,17 @@
 }
 
 @media (min-width:320px)  { 
-    h1{
-        font-size: 50px;
-    }
     .tasks p{
         font-size: 13px;
         font-weight: 700;
         padding:10px 0;
     }
-    .tasks-img{
+    .Iitem .tasks-img{
         text-align: center;
         width:100%;
         display: inline-block;
     }
-    .tasks-img img{
+    .Iitem .tasks-img img{
         width: 80%;
         height: auto;
         display: block;
@@ -125,28 +52,25 @@
         transform: "";
         width:100%;
       }
-      .tasks img{
+      .Isection2.tasks img{
         width: 100%;
         height: 100%;
-        max-width: 480px;
+        max-width: 300px;
         padding: 10px;
     }
 }
 @media (min-width:481px)  { 
-    h1{
-        font-size: 50px;
-    }
     .tasks p{
         font-size: 24px;
         font-weight: 600;
         padding: 10px 0;
     }
-    .tasks-img{
+    .Iitem .tasks-img{
         text-align: center;
         width:50%;
         display: inline-block;
     }
-    .tasks-img img{
+    .Iitem .tasks-img img{
         width: 80%;
         height: auto;
         display: block;
@@ -162,7 +86,7 @@
       transform: "";
       width:100%;
     }
-    .tasks img{
+    .Isection2.tasks img{
         width: 100%;
         height: 100%;
         max-width: 480px;
@@ -170,20 +94,21 @@
     }
 }
 @media (min-width:641px)  { 
-    h1{
-        font-size: 60px;
-    }
+ 
+    
+
+    
     .tasks p{
         font-size: 13px;
         font-weight: 700;
         padding:10px 5px;
     }
-    .tasks-img{
+    .Iitem .tasks-img{
         text-align: center;
         width:25%;
         display: inline-block;
     }
-    .tasks-img img{
+    .Iitem .tasks-img img{
         width: 80%;
         height: 220px;
         display: block;
@@ -199,7 +124,7 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .Isection2.tasks img{
         width: 100%;
         height: 100%;
         max-width: 480px;
@@ -208,20 +133,21 @@
 }
 
 @media (min-width:961px)  { 
-    h1{
-        font-size: 60px;
-    } 
+ 
+    
+    
+    
     .tasks p{
         font-size: 16px;
         font-weight: 700;
         padding:10px 12px;
     }
-    .tasks-img{
+    .Iitem .tasks-img{
         text-align: center;
         width:25%;
         display: inline-block;
     }
-    .tasks-img img{
+    .Iitem .tasks-img img{
         width: 80%;
         height: 220px;
         display: block;
@@ -237,7 +163,7 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .Isection2.tasks img{
         width: 100%;
         height: 100%;
         max-width: 480px;
@@ -246,20 +172,17 @@
 }
 
 @media (min-width:1025px) { 
-    h1{
-        font-size: 60px;
-    }
     .tasks p{
         font-size: 17px;
         font-weight: 700;
         padding:10px 12px;
     }
-    .tasks-img{
+    .Iitem .tasks-img{
         text-align: center;
         width:25%;
         display: inline-block;  
     }
-    .tasks-img img{
+    .Iitem .tasks-img img{
         width: 80%;
         height: 220px;
         display: block;
@@ -275,7 +198,7 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .Isection2.tasks img{
         width: 100%;
         height: 100%;
         max-width: 480px;

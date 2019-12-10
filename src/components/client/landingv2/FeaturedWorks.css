@@ -13,13 +13,13 @@
 }
 
 
-.featuredworks-1,.featuredworks-2,.featuredworks-3{
+/* .featuredworks-1,.featuredworks-2,.featuredworks-3{
     padding: 5px 20px;
     max-width: 250px;
     margin: 0 auto;
     position: relative;
     margin-top: 15px;
-}
+} */
 
 @media (min-width:320px)  { 
     .featuredworks p{

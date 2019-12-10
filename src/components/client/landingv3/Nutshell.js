@@ -35,7 +35,7 @@ export default class Nutshell extends Component {
     render() {
         return (
             <div>
-                <Grid id="nutshell" fluid className="featuredworks tasks color-change-2x">
+                <Grid id="nutshell" fluid className="landing featuredworks tasks color-change-2x">
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
                             <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>What We Do (in a nutshell)</h2>

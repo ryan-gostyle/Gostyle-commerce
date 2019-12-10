@@ -10,7 +10,7 @@ export default class First extends Component {
     render() {
         return (
             <Grid fluid className="hero">
-                <Row>
+                <Row style={{padding:15}}>
                     <Col xs={12} md={5} lg={5} lgOffset={1} className="hero-col-1">
                         <h1 style={{ fontFamily: "proxima-bold" }} className="bold-font-600 slide-in-bck-center">LET'S BUILD YOUR  <br /> <span className="bold-font-900"><Typed
                             strings={["Webstore", "SEO", "Brand"]}
@@ -51,7 +51,7 @@ export default class First extends Component {
                     </Col>
                     <Col xs={12} md={7} lg={6}>
                         <img alt="no no-bg.gif" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/no-bg.gif" />
-                        <Row top="xs" center="xs" style={{ marginRight: "20px" }}>
+                        <Row top="xs" center="xs" style={{ marginRight: "20px", marginLeft: "20px" }}>
                             <Col xs={6} md={3}>
                                 <img alt="no zoom" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/zoom.png" />
                             </Col>

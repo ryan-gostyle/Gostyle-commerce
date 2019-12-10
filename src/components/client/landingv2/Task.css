@@ -52,9 +52,7 @@
 }
 
 @media (min-width:320px)  { 
-    h1{
-        font-size: 50px;
-    }
+   
     .tasks p{
         font-size: 13px;
         font-weight: 700;
@@ -76,9 +74,7 @@
     
 }
 @media (min-width:481px)  { 
-    h1{
-        font-size: 50px;
-    }
+   
     .tasks p{
         font-size: 24px;
         font-weight: 600;
@@ -99,9 +95,7 @@
     }
 }
 @media (min-width:641px)  { 
-    h1{
-        font-size: 60px;
-    }
+   
     .tasks p{
         font-size: 13px;
         font-weight: 700;
@@ -123,9 +117,7 @@
 }
 
 @media (min-width:961px)  { 
-    h1{
-        font-size: 60px;
-    } 
+   
     .tasks p{
         font-size: 16px;
         font-weight: 700;
@@ -147,9 +139,7 @@
 }
 
 @media (min-width:1025px) { 
-    h1{
-        font-size: 60px;
-    }
+   
     .tasks p{
         font-size: 17px;
         font-weight: 700;

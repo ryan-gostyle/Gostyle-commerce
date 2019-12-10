@@ -129,9 +129,6 @@
 }
 
 @media (min-width:320px)  { 
-    h1{
-        font-size: 50px;
-    }
     .tasks p{
         font-size: 13px;
         font-weight: 700;
@@ -158,7 +155,7 @@
         transform: "";
         width:100%;
       }
-      .tasks img{
+      .wsection.tasks img{
         width: auto;
         height: 150px;
         max-width: 480px;
@@ -166,9 +163,6 @@
     }
 }
 @media (min-width:481px)  { 
-    h1{
-        font-size: 50px;
-    }
     .tasks p{
         font-size: 24px;
         font-weight: 600;
@@ -195,7 +189,7 @@
       transform: "";
       width:100%;
     }
-    .tasks img{
+    .wsection.tasks img{
         width: auto;
         height: 150px;
         max-width: 480px;
@@ -203,9 +197,6 @@
     }
 }
 @media (min-width:641px)  { 
-    h1{
-        font-size: 60px;
-    }
     .tasks p{
         font-size: 13px;
         font-weight: 700;
@@ -232,7 +223,7 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .wsection.tasks img{
         width: auto;
         height: 180px;
         max-width: 480px;
@@ -241,9 +232,6 @@
 }
 
 @media (min-width:961px)  { 
-    h1{
-        font-size: 60px;
-    } 
     .tasks p{
         font-size: 16px;
         font-weight: 700;
@@ -270,7 +258,7 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .wsection.tasks img{
         width: auto;
         height: 180px;
         max-width: 480px;
@@ -279,9 +267,6 @@
 }
 
 @media (min-width:1025px) { 
-    h1{
-        font-size: 60px;
-    }
     .tasks p{
         font-size: 17px;
         font-weight: 700;
@@ -308,14 +293,14 @@
       transform: translate(-50%, -50%);
       width:100%;
     }
-    .tasks img{
+    .wsection.tasks img{
         width: auto;
         height: 180px;
         max-width: 480px;
         padding: 10px;
     }
 }
-.ant-modal-body .tasks img {
+.ant-modal-body .wsection.tasks img {
     width: 100%;
     height: auto;
     max-width: 400px;

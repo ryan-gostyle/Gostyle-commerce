@@ -5,7 +5,7 @@ export default class ISection2 extends Component {
     render() {
         return (
             <div>
-                <Grid id="nutshell" fluid className="featuredworks tasks" style={{marginTop:"30px",padding:"0"}}>
+                <Grid id="nutshell" fluid className="Isection2 featuredworks tasks" style={{marginTop:"30px",padding:"0"}}>
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
                             <h2 className="focus-in-expand" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>We Double Down on Marketing</h2>

@@ -1,6 +1,6 @@
 .collaborate-wsection4{
     min-height: 380px;
-    margin-top: 0px !important;
+    margin-top: 35px !important;
 
 }
 .collaborate a{
@@ -35,14 +35,14 @@
     max-width: 530px;
 }
 #wsection3{
-    min-height: 380px !important;
-    margin-top: 20px !important;
+    min-height: auto !important;
+    margin-top: 0 !important;
     padding: 25px 15px;
 }
 
 @media (min-width:320px)  { 
  h3{
-     font-size: 30px;
+     font-size: 23px;
  }
  .collaborate img {
     width: 100%;
@@ -53,7 +53,7 @@
 }
 @media (min-width:481px)  { 
     h3{
-        font-size: 30px;
+        font-size: 23px;
     }
     .collaborate img {
         width: 100%;

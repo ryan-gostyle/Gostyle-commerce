@@ -8,7 +8,7 @@ export default class WSection1 extends Component {
     render() {
         return (
             <Grid fluid className="collaborate" style={{marginTop:0}}>
-                <Row middle="xs" center="xs" style={{ height: "80vh", backgroundColor: "#FAFAFAFA" }}>
+                <Row middle="xs" center="xs" style={{ height: "100%", backgroundColor: "#FAFAFAFA" }}>
                     <Col xs={12} md={12} lg={5}>
                         <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em !important" }}>Fully Responsive yet</h1>
                         <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em !important" }}>Creatively Made.</h1>

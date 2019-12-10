@@ -6,7 +6,7 @@ export default class WSection2 extends Component {
     render() {
         return (
             <div>
-                <Grid id="nutshell" fluid className="featuredworks tasks">
+                <Grid id="nutshell" fluid className="wsection featuredworks tasks" style={{marginTop:0,padding:15}}>
                     <Row style={{ overflow: 'hidden' }}>
                         <Col xs={12} md={12} >
                             <h2 className="" style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Strategy, Design and Development </h2>

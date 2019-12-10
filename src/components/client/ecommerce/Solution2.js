@@ -8,10 +8,10 @@ export default class Solutions2 extends Component {
                 <Row middle="xs" center="xs" className="container solutions-commerce">
                     <Col xs={12} md={12} lg={6}>
                         <Row center="xs" middle="xs">
-                            <Col lg={6}>
+                            <Col xs={6} lg={6}>
                                 <img alt="no anchanto" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/anchanto.png" />
                             </Col>
-                            <Col lg={6}>
+                            <Col xs={6} lg={6}>
                                 <img alt="no payo" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Payo_logo_Yellow-copy.png" />
                             </Col>
                         </Row>

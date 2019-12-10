@@ -11,7 +11,7 @@ export default class CommcereFree extends Component {
     render() {
         return (
             <Grid fluid>
-                <Row middle="xs" center="xs" style={{backgroundColor: "#FAFAFAFA"}} className="free featuredworks">
+                <Row middle="xs" center="xs" style={{backgroundColor: "#FAFAFAFA",marginTop:20}} className="free featuredworks">
                     <Col xs={12} md={12} style={{marginTop:"40px"}}>
                         <h1 className="vibrate-1" style={{fontFamily:"proxima-bold",textAlign:"center"}}>Custom Solution? Let's talk about it</h1>
                     </Col>

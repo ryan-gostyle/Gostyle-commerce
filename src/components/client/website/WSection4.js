@@ -10,7 +10,7 @@ export default class WSection4 extends Component {
                         <img alt="no image1 logo" src={"https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/Drupal_logo.png"} />
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-                        <h1 style={{ fontFamily: "proxima-bold", textAlign: "center" }}>Case Study: Techtonic Summit </h1>
+                        <h1 style={{ fontFamily: "proxima-bold", textAlign: "left",fontSize:"2em" }}>Case Study: Techtonic Summit </h1>
                         <p style={{ fontFamily: "proxima", textAlign: "left" }}>
                             We support your business with an advance approach
                             to utilise software in CMS development.

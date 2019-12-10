@@ -10,13 +10,13 @@ export default class WSection6 extends Component {
             <div>
                 <Grid fluid className="featuredworks" style={{ backgroundColor: "#FAFAFA" }}>
                     <Row center="xs" middle="xs">
-                        <Col xs={12} md={12} lg={3}>
+                        <Col xs={12} md={4} lg={3}>
                             <img alt="no basic" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/gostyle+web+dev-05.png" />
                         </Col>
-                        <Col xs={12} md={12} lg={3}>
+                        <Col xs={12} md={4} lg={3}>
                             <img alt="no standard" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/gostyle+web+dev-06.png" />
                         </Col>
-                        <Col xs={12} md={12} lg={3}>
+                        <Col xs={12} md={4} lg={3}>
                             <img alt="no premium" src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/gostyle+web+dev-07.png" />
                         </Col>
                         <Col xs={12} md={12} lg={3}>

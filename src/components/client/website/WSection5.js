@@ -44,7 +44,7 @@ export default class WSection5 extends Component {
         return (
             <Grid fluid className="featuredworks">
                 <Row center="xs" middle="xs">
-                    <Col xs={12} md={12} lg={12}>
+                    <Col xs={12} md={12} lg={12} style={{marginBottom:45}}>
                         <div >
                             <Slider {...settings}>
                                 <div xs={12} md={4} className="featuredworks-1">
