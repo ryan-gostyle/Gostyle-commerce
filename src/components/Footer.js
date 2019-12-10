@@ -35,7 +35,7 @@ export default class Footer extends Component {
 						<li><a href="/service/marketing-strategy/">Marketing strategy</a></li> */}
 								<li className="list-header">Our Services</li>
 								<li><a href="/commerce">Ecommerce Solutions</a></li>
-								<li><a href="/web-development/">Web development</a></li>
+								<li><a href="/website">Web development</a></li>
 								<li><a href="/inbound">Inbound Marketing</a></li>
 								<li><a href="/custom">Custom Solutions</a></li>
 							</ul>
@@ -62,9 +62,9 @@ export default class Footer extends Component {
 					<div className="row mt-5 align-items-center">
 						<div className="col-12 col-md">
 							<a href="/" className="social-icon" aria-label="Instagram"><Icon type="instagram" /></a>
-							<a href="/" className="social-icon" aria-label="Facebook"><Icon type="facebook" theme="filled" /></a>
+							<a href="https://www.facebook.com/GoStyleStudio/" className="social-icon" aria-label="Facebook"><Icon type="facebook" theme="filled" /></a>
 							<a href="/" className="social-icon" aria-label="Twitter"><Icon type="twitter" /></a>
-							<a href="/" className="social-icon" aria-label="Linkedin"><Icon type="linkedin" theme="filled" /></a>
+							<a href="https://www.linkedin.com/company/gostylestudio" className="social-icon" aria-label="Linkedin"><Icon type="linkedin" theme="filled" /></a>
 						</div>
 						<div className="col-12 col-md text-left text-md-center">
 							{/* <a href="https://w3w.co/vocal.teach.wishes" className="social-icon" style={{fontSize:"16px !important;"}}>///vocal.teach.wishes</a> */}
