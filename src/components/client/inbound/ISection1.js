@@ -12,10 +12,11 @@ export default class ISection1 extends Component {
         return (
             <div>
                 <Grid fluid className="hero">
-                    <Row middle="xs" center="xs" style={{height:"100vh",margin:"0 auto"}} className="container inbound-hero">
-                        <Col xs={12} md={12} lg={6} lgOffset={6}>
-                            <h1 style={{ textAlign: "center", fontSize: "3em" }}>Marketing Driven by </h1>
-                            <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em", textAlign: "center" }}>Purpose & Data</h1>
+                    <Row middle="xs" center="xs" style={{ height: "100vh", margin: "0 auto" }} className="container inbound-hero">
+                        <Col xs={12} md={12} lg={6}>
+                            <h1 style={{ fontSize: "3em" }}>Our Secret sauce:</h1>
+                            <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em" }}>We are Great Listeners!</h1>
+                            <h3 style={{ fontFamily: "proxima" }}>We listen to your target audience so that you can communicate effectively and thus reaching your business objective</h3>
                             <br />
                             <div>
                                 <Anchor affix={false} style={{ display: "inline-block" }}>
@@ -28,6 +29,9 @@ export default class ISection1 extends Component {
                             {/* 
                         <Button style={{marginBottom:"20px"}} className="we-work"><a>LEARN MORE</a></Button>
                         <Button style={{marginLeft:"10px",marginBottom:"20px"}} className="book-now"><a>BOOK NOW</a></Button> */}
+                        </Col>
+                        <Col xs={12} md={12} lg={6}>
+                            <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/inboundheader.png" />
                         </Col>
                     </Row>
                 </Grid>

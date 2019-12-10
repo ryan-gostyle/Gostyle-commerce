@@ -9,17 +9,18 @@ export default class WSection1 extends Component {
         return (
             <Grid fluid className="collaborate" style={{marginTop:0}}>
                 <Row middle="xs" center="xs" style={{ height: "80vh", backgroundColor: "#FAFAFAFA" }}>
-                    <Col xs={12} md={12} lg={12}>
-                        <h1 style={{ fontFamily: "proxima", textAlign: "center", fontSize: "3em !important" }}>Fully Responsive yet</h1>
-                        <h1 style={{ fontFamily: "proxima-bold", textAlign: "center", fontSize: "3em !important" }}>Creatively Made.</h1>
-                        <Row center="xs" middle="xs">
-                            <Col xs={12} md={6} lg={2}>
+                    <Col xs={12} md={12} lg={5}>
+                        <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em !important" }}>Fully Responsive yet</h1>
+                        <h1 style={{ fontFamily: "proxima-bold", fontSize: "3em !important" }}>Creatively Made.</h1>
+                        <h3 style={{ fontFamily: "proxima", width:"90%" }}>We go beyond building just a beautiful website but we ensure a fantastic <br/><strong style={{fontFamily:"proxima-bold"}}>user experience</strong></h3>
+                        <Row>
+                            <Col xs={12} md={6} lg={4}>
                                 <br />
                                 <Anchor affix={false}>
                                     <Link href="#nutshell" className="we-work" title="Learn More" />
                                 </Anchor>
                             </Col>
-                            <Col xs={12} md={6} lg={2}>
+                            <Col xs={12} md={6} lg={4}>
                                 <br />
 
                                 <Anchor affix={false}>
@@ -27,6 +28,9 @@ export default class WSection1 extends Component {
                                 </Anchor>
                             </Col>
                         </Row>
+                    </Col>
+                    <Col xs={12} md={12} lg={6}>
+                        <img src="https://lynagails-caters.s3-ap-southeast-1.amazonaws.com/uploads/Gostyle/websiteheader.png"/>
                     </Col>
                 </Row>
             </Grid>
